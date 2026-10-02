@@ -32,7 +32,124 @@ dns:
   - https://dns.alidns.com/dns-query
   - https://doh.pub/dns-query
 proxies:
-- name: 🇩🇪DE德国丨yoyapai.com_13
+- name: '🗽🇺🇸美國CloudFlare节点丨yoyapai.com #1'
+  type: vless
+  server: 162.159.81.104
+  port: 80
+  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
+  network: ws
+  tls: false
+  ws-opts:
+    path: /eyJqdW5rIjoiUEVTdDRlR2hhc0JuYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ
+    headers:
+      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: '🇸🇬SG新加坡丨yoyapai.com_2 #2'
+  type: vless
+  server: 104.17.191.15
+  port: 8880
+  uuid: adcce8be-9de7-41bd-abcd-52939cec108b
+  network: ws
+  tls: false
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: fancy-haze-ab00.236-68b.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: '🗽🇺🇸美國CloudFlare节点丨yoyapai.com #2'
+  type: vless
+  server: 162.159.81.104
+  port: 80
+  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
+  network: ws
+  tls: false
+  ws-opts:
+    path: /eyJqdW5rIjoiUEVTdDRlR2hhc0JuYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ
+    headers:
+      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: '🇸🇬SG新加坡丨yoyapai.com_2 #1'
+  type: vless
+  server: 104.17.191.15
+  port: 8880
+  uuid: adcce8be-9de7-41bd-abcd-52939cec108b
+  network: ws
+  tls: false
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: fancy-haze-ab00.236-68b.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸_US_美国_2
+  type: vless
+  server: 104.17.21.32
+  port: 8880
+  uuid: 300f44af-adb8-42b7-b869-bef70b205d7e
+  network: ws
+  tls: false
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: icy-rice-3c1c.340-680.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: '❓未知丨yoyapai.com_8 #1'
+  type: vless
+  server: 185.148.107.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime55.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: '❓未知丨yoyapai.com_8 #2'
+  type: vless
+  server: 185.148.107.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime55.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: '🇺🇸US美国丨yoyapai.com_2 #1'
+  type: vless
+  server: 104.16.72.101
+  port: 8880
+  uuid: ddef628e-e3a8-43c4-85eb-bd767a5f3b13
+  network: ws
+  tls: false
+  ws-opts:
+    path: /pyip
+    headers:
+      Host: autumn-forest-3479.121-488.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: '🇺🇸US美国丨yoyapai.com_2 #2'
+  type: vless
+  server: 104.16.72.101
+  port: 8880
+  uuid: ddef628e-e3a8-43c4-85eb-bd767a5f3b13
+  network: ws
+  tls: false
+  ws-opts:
+    path: /pyip
+    headers:
+      Host: autumn-forest-3479.121-488.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: '🇩🇪DE德国丨yoyapai.com_17 #2'
   type: vless
   server: 169.40.42.229
   port: 443
@@ -46,35 +163,7 @@ proxies:
     short-id: c39cc7310a
   skip-cert-verify: true
   udp: true
-- name: US美国(mibei77.com 米贝节点分享)_217
-  type: vless
-  server: vl.cocopon.top
-  port: 443
-  uuid: 44f06ad1-982c-4e03-849f-899c1c8dc14f
-  network: ws
-  servername: vl.cocopon.top
-  tls: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: vl.cocopon.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰HK香港節點丨yoyapai.com_1
-  type: vless
-  server: 91.193.58.195
-  port: 443
-  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
-  network: ws
-  servername: jamph131-1228.pages.dev
-  tls: true
-  ws-opts:
-    path: Telegram-WangCai2🇨🇳
-    headers:
-      Host: jamph131-1228.pages.dev
-  skip-cert-verify: true
-  udp: true
-- name: 🇪🇪爱沙尼亚丨yoyapai.com
+- name: '🇪🇪爱沙尼亚丨yoyapai.com #2'
   type: trojan
   server: 109.206.241.10
   port: 449
@@ -82,62 +171,72 @@ proxies:
   sni: russiapower.accesscam.org
   skip-cert-verify: true
   udp: true
-- name: 🇫🇷法國丨yoyapai.com
-  type: vless
-  server: 94.140.0.100
-  port: 8880
-  uuid: 78e6619e-e82a-cd8d-b482-0973d8498305
-  network: ws
-  tls: false
-  ws-opts:
-    path: /sync
-    headers:
-      Host: silent-pine-a674.jfadwkglaugul.workers.dev
+- name: '🇪🇪爱沙尼亚丨yoyapai.com #1'
+  type: trojan
+  server: 109.206.241.10
+  port: 449
+  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
+  sni: russiapower.accesscam.org
   skip-cert-verify: true
   udp: true
-- name: KR韩国(mibei77.com 米贝节点分享)_1
+- name: '🇩🇪DE德国丨yoyapai.com_17 #1'
   type: vless
-  server: 158.247.222.168
+  server: 169.40.42.229
   port: 443
-  uuid: 37665857-8b6e-4daa-8231-3e2927221558
-  network: ws
-  servername: spjd.cbc.qzz.io
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
   tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /proxyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: spjd.cbc.qzz.io
-  skip-cert-verify: true
-  udp: true
-- name: 爱沙尼亚(mibei77.com 米贝节点分享)
-  type: vless
-  server: 143.246.41.6
-  port: 25395
-  uuid: 900e2cca-4798-47f6-b972-5288a77c8093
-  network: xhttp
-  servername: amd.com
-  tls: true
-  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  client-fingerprint: ios
   reality-opts:
-    public-key: NPeupAuDrIhrFEXxPXUnsmuT0zSOkSQByegy5DPJQhU
-    short-id: b4
-  xhttp-opts:
-    path: /
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
   skip-cert-verify: true
   udp: true
-- name: RU俄罗斯(mibei77.com 米贝节点分享)
+- name: '🇨🇿CZ捷克丨yoyapai.com #2'
   type: vless
-  server: fbsv6.guardora.pro
+  server: 85.117.235.50
   port: 443
-  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
-  network: ws
-  servername: fbsv6.guardora.pro
+  uuid: f4d71fd6-1c25-4748-836b-1dbda9268039
+  servername: cz1.animeteka.info
   tls: true
-  client-fingerprint: random
-  ws-opts:
-    path: /ws
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: PmdZ2ETkHc0zjYcs22xT_wyZk5fEpX7mg7RP396HBBc
+    short-id: 232b1b09e45325a4
   skip-cert-verify: true
+  udp: true
+- name: '🇨🇿CZ捷克丨yoyapai.com #1'
+  type: vless
+  server: 85.117.235.50
+  port: 443
+  uuid: f4d71fd6-1c25-4748-836b-1dbda9268039
+  servername: cz1.animeteka.info
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: PmdZ2ETkHc0zjYcs22xT_wyZk5fEpX7mg7RP396HBBc
+    short-id: 232b1b09e45325a4
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰_HK_中国香港
+  type: vmess
+  server: 47.86.167.194
+  port: 800
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    path:
+    - /x
+    headers:
+      Host:
+      - sjskendn.dingtalk.com
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -146,14 +245,22 @@ proxy-groups:
   - 故障转移
   - 自动选择
   - DIRECT
-  - 🇩🇪DE德国丨yoyapai.com_13
-  - US美国(mibei77.com 米贝节点分享)_217
-  - 🇭🇰HK香港節點丨yoyapai.com_1
-  - 🇪🇪爱沙尼亚丨yoyapai.com
-  - 🇫🇷法國丨yoyapai.com
-  - KR韩国(mibei77.com 米贝节点分享)_1
-  - 爱沙尼亚(mibei77.com 米贝节点分享)
-  - RU俄罗斯(mibei77.com 米贝节点分享)
+  - '🗽🇺🇸美國CloudFlare节点丨yoyapai.com #1'
+  - '🇸🇬SG新加坡丨yoyapai.com_2 #2'
+  - '🗽🇺🇸美國CloudFlare节点丨yoyapai.com #2'
+  - '🇸🇬SG新加坡丨yoyapai.com_2 #1'
+  - 🇺🇸_US_美国_2
+  - '❓未知丨yoyapai.com_8 #1'
+  - '❓未知丨yoyapai.com_8 #2'
+  - '🇺🇸US美国丨yoyapai.com_2 #1'
+  - '🇺🇸US美国丨yoyapai.com_2 #2'
+  - '🇩🇪DE德国丨yoyapai.com_17 #2'
+  - '🇪🇪爱沙尼亚丨yoyapai.com #2'
+  - '🇪🇪爱沙尼亚丨yoyapai.com #1'
+  - '🇩🇪DE德国丨yoyapai.com_17 #1'
+  - '🇨🇿CZ捷克丨yoyapai.com #2'
+  - '🇨🇿CZ捷克丨yoyapai.com #1'
+  - 🇭🇰_HK_中国香港
 - name: 故障转移
   type: fallback
   url: http://www.gstatic.com/generate_204
@@ -161,14 +268,22 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - 🇩🇪DE德国丨yoyapai.com_13
-  - US美国(mibei77.com 米贝节点分享)_217
-  - 🇭🇰HK香港節點丨yoyapai.com_1
-  - 🇪🇪爱沙尼亚丨yoyapai.com
-  - 🇫🇷法國丨yoyapai.com
-  - KR韩国(mibei77.com 米贝节点分享)_1
-  - 爱沙尼亚(mibei77.com 米贝节点分享)
-  - RU俄罗斯(mibei77.com 米贝节点分享)
+  - '🗽🇺🇸美國CloudFlare节点丨yoyapai.com #1'
+  - '🇸🇬SG新加坡丨yoyapai.com_2 #2'
+  - '🗽🇺🇸美國CloudFlare节点丨yoyapai.com #2'
+  - '🇸🇬SG新加坡丨yoyapai.com_2 #1'
+  - 🇺🇸_US_美国_2
+  - '❓未知丨yoyapai.com_8 #1'
+  - '❓未知丨yoyapai.com_8 #2'
+  - '🇺🇸US美国丨yoyapai.com_2 #1'
+  - '🇺🇸US美国丨yoyapai.com_2 #2'
+  - '🇩🇪DE德国丨yoyapai.com_17 #2'
+  - '🇪🇪爱沙尼亚丨yoyapai.com #2'
+  - '🇪🇪爱沙尼亚丨yoyapai.com #1'
+  - '🇩🇪DE德国丨yoyapai.com_17 #1'
+  - '🇨🇿CZ捷克丨yoyapai.com #2'
+  - '🇨🇿CZ捷克丨yoyapai.com #1'
+  - 🇭🇰_HK_中国香港
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -176,13 +291,21 @@ proxy-groups:
   tolerance: 100
   lazy: false
   proxies:
-  - 🇩🇪DE德国丨yoyapai.com_13
-  - US美国(mibei77.com 米贝节点分享)_217
-  - 🇭🇰HK香港節點丨yoyapai.com_1
-  - 🇪🇪爱沙尼亚丨yoyapai.com
-  - 🇫🇷法國丨yoyapai.com
-  - KR韩国(mibei77.com 米贝节点分享)_1
-  - 爱沙尼亚(mibei77.com 米贝节点分享)
-  - RU俄罗斯(mibei77.com 米贝节点分享)
+  - '🗽🇺🇸美國CloudFlare节点丨yoyapai.com #1'
+  - '🇸🇬SG新加坡丨yoyapai.com_2 #2'
+  - '🗽🇺🇸美國CloudFlare节点丨yoyapai.com #2'
+  - '🇸🇬SG新加坡丨yoyapai.com_2 #1'
+  - 🇺🇸_US_美国_2
+  - '❓未知丨yoyapai.com_8 #1'
+  - '❓未知丨yoyapai.com_8 #2'
+  - '🇺🇸US美国丨yoyapai.com_2 #1'
+  - '🇺🇸US美国丨yoyapai.com_2 #2'
+  - '🇩🇪DE德国丨yoyapai.com_17 #2'
+  - '🇪🇪爱沙尼亚丨yoyapai.com #2'
+  - '🇪🇪爱沙尼亚丨yoyapai.com #1'
+  - '🇩🇪DE德国丨yoyapai.com_17 #1'
+  - '🇨🇿CZ捷克丨yoyapai.com #2'
+  - '🇨🇿CZ捷克丨yoyapai.com #1'
+  - 🇭🇰_HK_中国香港
 rules:
 - MATCH,节点选择
