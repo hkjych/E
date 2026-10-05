@@ -60,7 +60,42 @@ proxies:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 英国(mibei77.com 米贝节点分享)_1
+- name: 🇺🇸_US_美国_2
+  type: vless
+  server: 104.17.21.32
+  port: 8880
+  uuid: 300f44af-adb8-42b7-b869-bef70b205d7e
+  network: ws
+  tls: false
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: icy-rice-3c1c.340-680.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享)_41
+  type: vless
+  server: 172.67.203.138
+  port: 8080
+  uuid: 015fada5-2c95-4251-9c58-39fa3abf1e24
+  network: ws
+  servername: 172.67.203.138
+  tls: false
+  ws-opts:
+    path: /eyJqdW5rIjoidzY2QTdySkdOeiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIl19?ed=2560
+    headers:
+      Host: server17.peekconfig1.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享)_1
+  type: hysteria2
+  server: 144.31.212.253
+  port: 443
+  password: cf83b611-6cba-4535-adcb-8da06c6a9146
+  sni: vps155-edge.kermemehori.ru
+  skip-cert-verify: true
+  udp: true
+- name: GB英国(mibei77.com 米贝节点分享)
   type: vless
   server: 2.28.142.170
   port: 443
@@ -79,37 +114,16 @@ proxies:
     mode: auto
   skip-cert-verify: true
   udp: true
-- name: 波兰(mibei77.com 米贝节点分享)
-  type: trojan
-  server: pl.tronsg.com
-  port: 443
-  password: Trojan@82164024
-  sni: pl.tronsg.com
-  skip-cert-verify: true
-  udp: true
-- name: 英国(mibei77.com 米贝节点分享)
-  type: vless
-  server: 31.76.34.216
-  port: 443
-  uuid: 94def50e-5f3c-4e4c-9719-3325f42d2131
-  servername: ru-c-1.minzt.su
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: XrgbY2hKJQG8QOZO2J1pGmZsbvjSsSWoM9iULIMGK00
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_11
+- name: KR韩国(mibei77.com 米贝节点分享)
   type: anytls
-  server: anytls2.864106.xyz
-  port: 19000
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: anytls2.864106.xyz
+  server: svip.skycon808.com
+  port: 60005
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  sni: xjp18.2uuzhe.com
   skip-cert-verify: true
   tls: true
   udp: true
-- name: US美国(mibei77.com 米贝节点分享)_25
+- name: US美国(mibei77.com 米贝节点分享)
   type: vless
   server: 13.143.185.29
   port: 8448
@@ -125,40 +139,6 @@ proxies:
     path: /assets/v2
     host: 13.143.185.29
     mode: auto
-  skip-cert-verify: true
-  udp: true
-- name: 巴西(mibei77.com 米贝节点分享)
-  type: vless
-  server: 201.34.159.213
-  port: 443
-  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
-  network: grpc
-  servername: us1.g4m1.biz
-  tls: true
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-  skip-cert-verify: true
-  udp: true
-- name: 西班牙(mibei77.com 米贝节点分享)
-  type: vless
-  server: us1.g4m1.biz
-  port: 443
-  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
-  network: grpc
-  servername: us1.g4m1.biz
-  tls: true
-  client-fingerprint: random
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_8
-  type: hysteria2
-  server: 144.31.212.253
-  port: 443
-  password: cf83b611-6cba-4535-adcb-8da06c6a9146
-  sni: vps155-edge.kermemehori.ru
   skip-cert-verify: true
   udp: true
 - name: 🇭🇰_HK_中国香港
@@ -187,14 +167,12 @@ proxy-groups:
   - DIRECT
   - 巴西(mibei77.com 米贝节点分享)_2
   - 巴西(mibei77.com 米贝节点分享)_1
-  - 英国(mibei77.com 米贝节点分享)_1
-  - 波兰(mibei77.com 米贝节点分享)
-  - 英国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_11
-  - US美国(mibei77.com 米贝节点分享)_25
-  - 巴西(mibei77.com 米贝节点分享)
-  - 西班牙(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_8
+  - 🇺🇸_US_美国_2
+  - US美国(mibei77.com 米贝节点分享)_41
+  - US美国(mibei77.com 米贝节点分享)_1
+  - GB英国(mibei77.com 米贝节点分享)
+  - KR韩国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享)
   - 🇭🇰_HK_中国香港
 - name: 故障转移
   type: fallback
@@ -205,14 +183,12 @@ proxy-groups:
   - DIRECT
   - 巴西(mibei77.com 米贝节点分享)_2
   - 巴西(mibei77.com 米贝节点分享)_1
-  - 英国(mibei77.com 米贝节点分享)_1
-  - 波兰(mibei77.com 米贝节点分享)
-  - 英国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_11
-  - US美国(mibei77.com 米贝节点分享)_25
-  - 巴西(mibei77.com 米贝节点分享)
-  - 西班牙(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_8
+  - 🇺🇸_US_美国_2
+  - US美国(mibei77.com 米贝节点分享)_41
+  - US美国(mibei77.com 米贝节点分享)_1
+  - GB英国(mibei77.com 米贝节点分享)
+  - KR韩国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享)
   - 🇭🇰_HK_中国香港
 - name: 自动选择
   type: url-test
@@ -223,14 +199,12 @@ proxy-groups:
   proxies:
   - 巴西(mibei77.com 米贝节点分享)_2
   - 巴西(mibei77.com 米贝节点分享)_1
-  - 英国(mibei77.com 米贝节点分享)_1
-  - 波兰(mibei77.com 米贝节点分享)
-  - 英国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_11
-  - US美国(mibei77.com 米贝节点分享)_25
-  - 巴西(mibei77.com 米贝节点分享)
-  - 西班牙(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_8
+  - 🇺🇸_US_美国_2
+  - US美国(mibei77.com 米贝节点分享)_41
+  - US美国(mibei77.com 米贝节点分享)_1
+  - GB英国(mibei77.com 米贝节点分享)
+  - KR韩国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享)
   - 🇭🇰_HK_中国香港
 rules:
 - MATCH,节点选择
