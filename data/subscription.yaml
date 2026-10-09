@@ -32,293 +32,176 @@ dns:
   - https://dns.alidns.com/dns-query
   - https://doh.pub/dns-query
 proxies:
-- name: 🇺🇸US_52|681KB/s|P002-260618 01
-  password: ''
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_272|655KB/s|P002-260618 01
-  password: ''
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-  udp: true
-- name: 🇺🇸US_88|661KB/s|R002-260618 01
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_129|607KB/s|A004-260618 01
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.118.10
-  type: ss
-  udp: true
-- name: 🇺🇸US_47|183KB/s|P002-260618 01
-  password: ''
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_5|998KB/s|A004-260618 01
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.0.177
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 🇺🇸US_343|305KB/s|A004-260618 01
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.155.57.11
-  type: ss
-  udp: true
-- encryption: none
-  name: 🇫🇷FR_556|413KB/s|B007-260618 01
-  network: ws
-  port: 2082
-  server: 172.64.150.28
+- name: DE德国(mibei77.com 米贝节点分享)_3
   type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /fp
-  xudp: true
-  packet-encoding: xudp
-  servername: hhlfy.twiladaphne.ndjp.net
-- cipher: rc4-md5
-  name: 🇺🇸US_107|848KB/s|A004-260618 01
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.151.182.197
-  type: ss
-  udp: true
-- name: 🇺🇸US_67|699KB/s|P002-260618 01
-  password: ''
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_219|643KB/s|R002-260618 01
-  password: ''
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-  udp: true
-- name: 🇺🇸US_190|693KB/s|P002-260618 01
-  password: ''
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_158|629KB/s 01
-  password: ''
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-  udp: true
-- encryption: none
-  name: 🇫🇷FR_150|591KB/s 01
-  network: ws
-  port: 2086
-  server: muddy-shadow-8905.qara-atayi-1.workers.dev
-  type: vless
-  udp: true
-  uuid: 9ef1d60d-9e38-49c5-9405-131e11be1f9c
-  ws-opts:
-    headers:
-      Host: muddy-shadow-8905.qara-atayi-1.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36
-    path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR_305|402KB/s|M003-260806 01
-  network: ws
-  port: 2096
-  server: 104.21.70.228
-  tls: true
-  type: vless
-  udp: true
-  uuid: d9c13e62-b227-4bc7-9bc2-5af179c630d7
-  ws-opts:
-    headers:
-      Host: old-mouse-3fe4.alirezaid207.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /eyJqdW5rIjoiNU83bGx4TU5QNG9uIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: olD-mOusE-3FE4.AlirezaID207.woRkerS.DeV
-- name: 🇺🇸US_345|697KB/s|R002-260618 01
+  server: cf.3666888.xyz
   port: 443
-  server: 129.153.93.183
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_81|668KB/s|P002-260618 01
-  password: ''
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_36|692KB/s|P002-260618 01
-  password: ''
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_235|693KB/s|P002-260618 01
-  password: ''
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-  udp: true
-- name: 🇺🇸US_93|710KB/s|R002-260618 01
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_16|642KB/s 01
-  password: ''
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-  udp: true
-- encryption: none
-  name: 🇫🇷FR_392|696KB/s|C002-260622 01
+  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
   network: ws
-  port: 8880
-  server: cf7.466688.xyz
-  type: vless
-  udp: true
-  uuid: 9be3bb59-c281-4fee-ae3d-7cf6c4b47eb4
+  servername: 20664.pages.dev
+  tls: true
+  client-fingerprint: random
   ws-opts:
+    path: /?ed=2048
     headers:
-      Host: late-mountain-6801.355.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net@https://t.me/QiangLieTuiJian
-  xudp: true
-  packet-encoding: xudp
-- name: 🇺🇸US_8|708KB/s 01
-  password: ''
-  port: 9002
-  server: 138.199.35.205
+      Host: 20664.pages.dev
   skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
   udp: true
-- name: 🇺🇸US_97|725KB/s 01
-  password: ''
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-  udp: true
-- name: 🇺🇸US_164|649KB/s|R002-260618 01
-  password: ''
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_45|667KB/s|P002-260618 01
-  password: ''
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- encryption: none
-  name: 🇫🇷FR_953|551KB/s|M003-260806 01
+- name: 🇸🇬SG新加坡丨yoyapai.com_7
+  type: vless
+  server: 104.17.191.15
+  port: 8880
+  uuid: adcce8be-9de7-41bd-abcd-52939cec108b
   network: ws
-  port: 8880
-  server: 172.67.178.142
-  type: vless
-  udp: true
-  uuid: ae0e6518-71ab-4f4b-87d1-7802765f52ba
+  tls: false
   ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
-      Host: koq90g5av4kdxunfa.liliane-hilpert.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /vl/Bo5RdqRiWZlPNpQ5DfueEJoS
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2560
-  xudp: true
-  packet-encoding: xudp
-  servername: koq90g5av4kdxunfa.liliane-hilpert.workers.dev
-- name: 🇺🇸US_33|710KB/s|R002-260618 01
-  password: ''
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
+      Host: fancy-haze-ab00.236-68b.workers.dev
+  skip-cert-verify: false
   udp: true
-- name: 🇺🇸US_163|746KB/s|P002-260618 01
-  password: ''
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
+- name: 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
+  type: vless
+  server: 162.159.81.104
+  port: 80
+  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
+  network: ws
+  tls: false
+  ws-opts:
+    path: /eyJqdW5rIjoiUEVTdDRlR2hhc0JuYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ
+    headers:
+      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
+  skip-cert-verify: false
   udp: true
-- name: 🇺🇸US_19|686KB/s|R002-260618 01
-  port: 9002
-  server: 138.199.35.213
+- name: ❓未知丨yoyapai.com_30
+  type: vless
+  server: www.gov.se
+  port: 8080
+  uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
+  network: ws
+  servername: www.gov.se
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
+  skip-cert-verify: false
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享)_7
+  type: vless
+  server: 172.67.203.138
+  port: 8080
+  uuid: 015fada5-2c95-4251-9c58-39fa3abf1e24
+  network: ws
+  servername: 172.67.203.138
+  tls: false
+  ws-opts:
+    path: /eyJqdW5rIjoidzY2QTdySkdOeiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIl19?ed=2560
+    headers:
+      Host: server17.peekconfig1.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪DE德国丨yoyapai.com_14
+  type: vless
+  server: 169.40.42.229
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: ios
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  skip-cert-verify: false
+  udp: true
+- name: 🇺🇸US美国丨yoyapai.com
+  type: vless
+  server: tk1.high-speed-test-56424.me
+  port: 443
+  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
+  servername: aws.amazon.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
+    short-id: 21270a66
+  skip-cert-verify: false
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享)_1
+  type: anytls
+  server: anytls2.864106.xyz
+  port: 19000
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: anytls2.864106.xyz
   skip-cert-verify: true
   tls: true
-  type: http
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享)_25
+  type: vless
+  server: 104.21.207.202
+  port: 443
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  network: xhttp
+  servername: b33ec4a1s226.fuhuovps.xyz
+  tls: true
+  client-fingerprint: ios
+  alpn:
+  - h2
+  - http/1.1
+  xhttp-opts:
+    path: e0d9cd6ea04ecda957b4ca0869e038af
+    host: b33ec4a1s226.fuhuovps.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 🇻🇳VN越南丨yoyapai.com
+  type: vless
+  server: 104.27.0.121
+  port: 443
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  network: xhttp
+  servername: b33ec4a1s226.fuhuovps.xyz
+  tls: true
+  client-fingerprint: ios
+  alpn:
+  - h2
+  - http/1.1
+  xhttp-opts:
+    path: e0d9cd6ea04ecda957b4ca0869e038af
+    host: b33ec4a1s226.fuhuovps.xyz
+  skip-cert-verify: false
+  udp: true
+- name: 🇭🇰_HK_中国香港
+  type: vmess
+  server: 47.86.167.194
+  port: 800
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    path:
+    - /x
+    headers:
+      Host:
+      - sjskendn.dingtalk.com
+  udp: true
+- name: 阿拉伯(mibei77.com 米贝节点分享)
+  type: vless
+  server: 157.228.160.166
+  port: 443
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+  servername: addons.mozilla.org
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: randomized
+  reality-opts:
+    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
+    short-id: 3cef317b
+  skip-cert-verify: true
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -327,36 +210,18 @@ proxy-groups:
   - 故障转移
   - 自动选择
   - DIRECT
-  - 🇺🇸US_52|681KB/s|P002-260618 01
-  - 🇺🇸US_272|655KB/s|P002-260618 01
-  - 🇺🇸US_88|661KB/s|R002-260618 01
-  - 🇺🇸US_129|607KB/s|A004-260618 01
-  - 🇺🇸US_47|183KB/s|P002-260618 01
-  - 🇺🇸US_5|998KB/s|A004-260618 01
-  - 🇺🇸US_343|305KB/s|A004-260618 01
-  - 🇫🇷FR_556|413KB/s|B007-260618 01
-  - 🇺🇸US_107|848KB/s|A004-260618 01
-  - 🇺🇸US_67|699KB/s|P002-260618 01
-  - 🇺🇸US_219|643KB/s|R002-260618 01
-  - 🇺🇸US_190|693KB/s|P002-260618 01
-  - 🇺🇸US_158|629KB/s 01
-  - 🇫🇷FR_150|591KB/s 01
-  - 🇫🇷FR_305|402KB/s|M003-260806 01
-  - 🇺🇸US_345|697KB/s|R002-260618 01
-  - 🇺🇸US_81|668KB/s|P002-260618 01
-  - 🇺🇸US_36|692KB/s|P002-260618 01
-  - 🇺🇸US_235|693KB/s|P002-260618 01
-  - 🇺🇸US_93|710KB/s|R002-260618 01
-  - 🇺🇸US_16|642KB/s 01
-  - 🇫🇷FR_392|696KB/s|C002-260622 01
-  - 🇺🇸US_8|708KB/s 01
-  - 🇺🇸US_97|725KB/s 01
-  - 🇺🇸US_164|649KB/s|R002-260618 01
-  - 🇺🇸US_45|667KB/s|P002-260618 01
-  - 🇫🇷FR_953|551KB/s|M003-260806 01
-  - 🇺🇸US_33|710KB/s|R002-260618 01
-  - 🇺🇸US_163|746KB/s|P002-260618 01
-  - 🇺🇸US_19|686KB/s|R002-260618 01
+  - DE德国(mibei77.com 米贝节点分享)_3
+  - 🇸🇬SG新加坡丨yoyapai.com_7
+  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
+  - ❓未知丨yoyapai.com_30
+  - US美国(mibei77.com 米贝节点分享)_7
+  - 🇩🇪DE德国丨yoyapai.com_14
+  - 🇺🇸US美国丨yoyapai.com
+  - US美国(mibei77.com 米贝节点分享)_1
+  - US美国(mibei77.com 米贝节点分享)_25
+  - 🇻🇳VN越南丨yoyapai.com
+  - 🇭🇰_HK_中国香港
+  - 阿拉伯(mibei77.com 米贝节点分享)
 - name: 故障转移
   type: fallback
   url: http://www.gstatic.com/generate_204
@@ -364,36 +229,18 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - 🇺🇸US_52|681KB/s|P002-260618 01
-  - 🇺🇸US_272|655KB/s|P002-260618 01
-  - 🇺🇸US_88|661KB/s|R002-260618 01
-  - 🇺🇸US_129|607KB/s|A004-260618 01
-  - 🇺🇸US_47|183KB/s|P002-260618 01
-  - 🇺🇸US_5|998KB/s|A004-260618 01
-  - 🇺🇸US_343|305KB/s|A004-260618 01
-  - 🇫🇷FR_556|413KB/s|B007-260618 01
-  - 🇺🇸US_107|848KB/s|A004-260618 01
-  - 🇺🇸US_67|699KB/s|P002-260618 01
-  - 🇺🇸US_219|643KB/s|R002-260618 01
-  - 🇺🇸US_190|693KB/s|P002-260618 01
-  - 🇺🇸US_158|629KB/s 01
-  - 🇫🇷FR_150|591KB/s 01
-  - 🇫🇷FR_305|402KB/s|M003-260806 01
-  - 🇺🇸US_345|697KB/s|R002-260618 01
-  - 🇺🇸US_81|668KB/s|P002-260618 01
-  - 🇺🇸US_36|692KB/s|P002-260618 01
-  - 🇺🇸US_235|693KB/s|P002-260618 01
-  - 🇺🇸US_93|710KB/s|R002-260618 01
-  - 🇺🇸US_16|642KB/s 01
-  - 🇫🇷FR_392|696KB/s|C002-260622 01
-  - 🇺🇸US_8|708KB/s 01
-  - 🇺🇸US_97|725KB/s 01
-  - 🇺🇸US_164|649KB/s|R002-260618 01
-  - 🇺🇸US_45|667KB/s|P002-260618 01
-  - 🇫🇷FR_953|551KB/s|M003-260806 01
-  - 🇺🇸US_33|710KB/s|R002-260618 01
-  - 🇺🇸US_163|746KB/s|P002-260618 01
-  - 🇺🇸US_19|686KB/s|R002-260618 01
+  - DE德国(mibei77.com 米贝节点分享)_3
+  - 🇸🇬SG新加坡丨yoyapai.com_7
+  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
+  - ❓未知丨yoyapai.com_30
+  - US美国(mibei77.com 米贝节点分享)_7
+  - 🇩🇪DE德国丨yoyapai.com_14
+  - 🇺🇸US美国丨yoyapai.com
+  - US美国(mibei77.com 米贝节点分享)_1
+  - US美国(mibei77.com 米贝节点分享)_25
+  - 🇻🇳VN越南丨yoyapai.com
+  - 🇭🇰_HK_中国香港
+  - 阿拉伯(mibei77.com 米贝节点分享)
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -401,35 +248,17 @@ proxy-groups:
   tolerance: 100
   lazy: false
   proxies:
-  - 🇺🇸US_52|681KB/s|P002-260618 01
-  - 🇺🇸US_272|655KB/s|P002-260618 01
-  - 🇺🇸US_88|661KB/s|R002-260618 01
-  - 🇺🇸US_129|607KB/s|A004-260618 01
-  - 🇺🇸US_47|183KB/s|P002-260618 01
-  - 🇺🇸US_5|998KB/s|A004-260618 01
-  - 🇺🇸US_343|305KB/s|A004-260618 01
-  - 🇫🇷FR_556|413KB/s|B007-260618 01
-  - 🇺🇸US_107|848KB/s|A004-260618 01
-  - 🇺🇸US_67|699KB/s|P002-260618 01
-  - 🇺🇸US_219|643KB/s|R002-260618 01
-  - 🇺🇸US_190|693KB/s|P002-260618 01
-  - 🇺🇸US_158|629KB/s 01
-  - 🇫🇷FR_150|591KB/s 01
-  - 🇫🇷FR_305|402KB/s|M003-260806 01
-  - 🇺🇸US_345|697KB/s|R002-260618 01
-  - 🇺🇸US_81|668KB/s|P002-260618 01
-  - 🇺🇸US_36|692KB/s|P002-260618 01
-  - 🇺🇸US_235|693KB/s|P002-260618 01
-  - 🇺🇸US_93|710KB/s|R002-260618 01
-  - 🇺🇸US_16|642KB/s 01
-  - 🇫🇷FR_392|696KB/s|C002-260622 01
-  - 🇺🇸US_8|708KB/s 01
-  - 🇺🇸US_97|725KB/s 01
-  - 🇺🇸US_164|649KB/s|R002-260618 01
-  - 🇺🇸US_45|667KB/s|P002-260618 01
-  - 🇫🇷FR_953|551KB/s|M003-260806 01
-  - 🇺🇸US_33|710KB/s|R002-260618 01
-  - 🇺🇸US_163|746KB/s|P002-260618 01
-  - 🇺🇸US_19|686KB/s|R002-260618 01
+  - DE德国(mibei77.com 米贝节点分享)_3
+  - 🇸🇬SG新加坡丨yoyapai.com_7
+  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
+  - ❓未知丨yoyapai.com_30
+  - US美国(mibei77.com 米贝节点分享)_7
+  - 🇩🇪DE德国丨yoyapai.com_14
+  - 🇺🇸US美国丨yoyapai.com
+  - US美国(mibei77.com 米贝节点分享)_1
+  - US美国(mibei77.com 米贝节点分享)_25
+  - 🇻🇳VN越南丨yoyapai.com
+  - 🇭🇰_HK_中国香港
+  - 阿拉伯(mibei77.com 米贝节点分享)
 rules:
 - MATCH,节点选择
