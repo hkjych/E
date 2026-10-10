@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-10-09T08:07:28.117379",
-  "node_count": 12,
-  "total_candidates": 393,
+  "updated_at": "2026-10-10T07:51:50.217245",
+  "node_count": 11,
+  "total_candidates": 379,
   "sources": [
     {
       "source": "lancex",
-      "article_url": "https://lancex.net/free-node/2026-10-9-top-vpn.htm"
+      "article_url": "https://lancex.net/free-node/clash-node-daily-updates-2026-10-10.htm"
     },
     {
       "source": "clash-node",
-      "article_url": "https://clash-node.com/free-node/2026-10-9-node-share-links.htm"
+      "article_url": "https://clash-node.com/free-node/free-vpn-proxy-2026-10-10.htm"
     }
   ],
   "all_yaml_urls": [
-    "https://node.lancex.net/uploads/2026/10/0-20261009.yaml",
-    "https://node.lancex.net/uploads/2026/10/2-20261009.yaml",
-    "https://node.clash-node.com/uploads/2026/10/0-20261009.yaml",
-    "https://node.clash-node.com/uploads/2026/10/1-20261009.yaml",
-    "https://node.clash-node.com/uploads/2026/10/3-20261009.yaml"
+    "https://node.lancex.net/uploads/2026/10/1-20261010.yaml",
+    "https://node.lancex.net/uploads/2026/10/4-20261010.yaml",
+    "https://node.clash-node.com/uploads/2026/10/0-20261010.yaml",
+    "https://node.clash-node.com/uploads/2026/10/1-20261010.yaml",
+    "https://node.clash-node.com/uploads/2026/10/3-20261010.yaml"
   ]
 }

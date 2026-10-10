@@ -32,22 +32,20 @@ dns:
   - https://dns.alidns.com/dns-query
   - https://doh.pub/dns-query
 proxies:
-- name: DE德国(mibei77.com 米贝节点分享)_3
+- name: 🇨🇦CA加拿大丨yoyapai.com_3
   type: vless
-  server: cf.3666888.xyz
-  port: 443
-  uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
+  server: 104.21.23.72
+  port: 8880
+  uuid: f4e6476f-40d0-40cb-841f-cc2f6909ff20
   network: ws
-  servername: 20664.pages.dev
-  tls: true
-  client-fingerprint: random
+  tls: false
   ws-opts:
-    path: /?ed=2048
+    path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
-      Host: 20664.pages.dev
-  skip-cert-verify: true
+      Host: calm-haze-d105.21-7cd.workers.dev
+  skip-cert-verify: false
   udp: true
-- name: 🇸🇬SG新加坡丨yoyapai.com_7
+- name: 🇸🇬SG新加坡丨yoyapai.com_6
   type: vless
   server: 104.17.191.15
   port: 8880
@@ -60,48 +58,7 @@ proxies:
       Host: fancy-haze-ab00.236-68b.workers.dev
   skip-cert-verify: false
   udp: true
-- name: 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
-  type: vless
-  server: 162.159.81.104
-  port: 80
-  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
-  network: ws
-  tls: false
-  ws-opts:
-    path: /eyJqdW5rIjoiUEVTdDRlR2hhc0JuYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ
-    headers:
-      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
-  skip-cert-verify: false
-  udp: true
-- name: ❓未知丨yoyapai.com_30
-  type: vless
-  server: www.gov.se
-  port: 8080
-  uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
-  network: ws
-  servername: www.gov.se
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
-  skip-cert-verify: false
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_7
-  type: vless
-  server: 172.67.203.138
-  port: 8080
-  uuid: 015fada5-2c95-4251-9c58-39fa3abf1e24
-  network: ws
-  servername: 172.67.203.138
-  tls: false
-  ws-opts:
-    path: /eyJqdW5rIjoidzY2QTdySkdOeiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIl19?ed=2560
-    headers:
-      Host: server17.peekconfig1.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪DE德国丨yoyapai.com_14
+- name: 🇩🇪DE德国丨yoyapai.com_13
   type: vless
   server: 169.40.42.229
   port: 443
@@ -115,7 +72,23 @@ proxies:
     short-id: c39cc7310a
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com
+- name: 阿拉伯(mibei77.com 米贝节点分享)
+  type: vless
+  server: 31.59.210.24
+  port: 2087
+  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+  network: grpc
+  servername: www.yandex.ru
+  tls: true
+  client-fingerprint: ios
+  grpc-opts:
+    grpc-service-name: astracat
+  reality-opts:
+    public-key: W2OLbQ682PLJ9yHQ21Q0nPJk9U8RuL5YnlP-U1fdQzI
+    short-id: a11023050f134216
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US美国丨yoyapai.com_16
   type: vless
   server: tk1.high-speed-test-56424.me
   port: 443
@@ -129,30 +102,20 @@ proxies:
     short-id: 21270a66
   skip-cert-verify: false
   udp: true
-- name: US美国(mibei77.com 米贝节点分享)_1
-  type: anytls
-  server: anytls2.864106.xyz
-  port: 19000
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: anytls2.864106.xyz
-  skip-cert-verify: true
-  tls: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_25
+- name: RU俄罗斯(mibei77.com 米贝节点分享)
   type: vless
-  server: 104.21.207.202
-  port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  network: xhttp
-  servername: b33ec4a1s226.fuhuovps.xyz
+  server: 31.59.210.26
+  port: 2088
+  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+  network: grpc
+  servername: www.yandex.ru
   tls: true
-  client-fingerprint: ios
-  alpn:
-  - h2
-  - http/1.1
-  xhttp-opts:
-    path: e0d9cd6ea04ecda957b4ca0869e038af
-    host: b33ec4a1s226.fuhuovps.xyz
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: astracat
+  reality-opts:
+    public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
+    short-id: b1ad165f903c62fe
   skip-cert-verify: true
   udp: true
 - name: 🇻🇳VN越南丨yoyapai.com
@@ -172,6 +135,47 @@ proxies:
     host: b33ec4a1s226.fuhuovps.xyz
   skip-cert-verify: false
   udp: true
+- name: US美国(mibei77.com 米贝节点分享)_33
+  type: vless
+  server: 104.21.207.202
+  port: 443
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  network: xhttp
+  servername: b33ec4a1s226.fuhuovps.xyz
+  tls: true
+  client-fingerprint: ios
+  alpn:
+  - h2
+  - http/1.1
+  xhttp-opts:
+    path: e0d9cd6ea04ecda957b4ca0869e038af
+    host: b33ec4a1s226.fuhuovps.xyz
+  skip-cert-verify: true
+  udp: true
+- name: US美国mibei77.com 米贝节点分享)_4
+  type: vless
+  server: s1244.csgfw.top
+  port: 10829
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  servername: u695098ueb8953b4s861.gogocs.xyz
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享)_8
+  type: vless
+  server: pl-waw.dontblockmepls.com
+  port: 2063
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+  servername: rusbid.de
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+  skip-cert-verify: true
+  udp: true
 - name: 🇭🇰_HK_中国香港
   type: vmess
   server: 47.86.167.194
@@ -189,20 +193,6 @@ proxies:
       Host:
       - sjskendn.dingtalk.com
   udp: true
-- name: 阿拉伯(mibei77.com 米贝节点分享)
-  type: vless
-  server: 157.228.160.166
-  port: 443
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
-  servername: addons.mozilla.org
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: randomized
-  reality-opts:
-    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
-    short-id: 3cef317b
-  skip-cert-verify: true
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -210,18 +200,17 @@ proxy-groups:
   - 故障转移
   - 自动选择
   - DIRECT
-  - DE德国(mibei77.com 米贝节点分享)_3
-  - 🇸🇬SG新加坡丨yoyapai.com_7
-  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
-  - ❓未知丨yoyapai.com_30
-  - US美国(mibei77.com 米贝节点分享)_7
-  - 🇩🇪DE德国丨yoyapai.com_14
-  - 🇺🇸US美国丨yoyapai.com
-  - US美国(mibei77.com 米贝节点分享)_1
-  - US美国(mibei77.com 米贝节点分享)_25
-  - 🇻🇳VN越南丨yoyapai.com
-  - 🇭🇰_HK_中国香港
+  - 🇨🇦CA加拿大丨yoyapai.com_3
+  - 🇸🇬SG新加坡丨yoyapai.com_6
+  - 🇩🇪DE德国丨yoyapai.com_13
   - 阿拉伯(mibei77.com 米贝节点分享)
+  - 🇺🇸US美国丨yoyapai.com_16
+  - RU俄罗斯(mibei77.com 米贝节点分享)
+  - 🇻🇳VN越南丨yoyapai.com
+  - US美国(mibei77.com 米贝节点分享)_33
+  - US美国mibei77.com 米贝节点分享)_4
+  - US美国(mibei77.com 米贝节点分享)_8
+  - 🇭🇰_HK_中国香港
 - name: 故障转移
   type: fallback
   url: http://www.gstatic.com/generate_204
@@ -229,18 +218,17 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - DE德国(mibei77.com 米贝节点分享)_3
-  - 🇸🇬SG新加坡丨yoyapai.com_7
-  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
-  - ❓未知丨yoyapai.com_30
-  - US美国(mibei77.com 米贝节点分享)_7
-  - 🇩🇪DE德国丨yoyapai.com_14
-  - 🇺🇸US美国丨yoyapai.com
-  - US美国(mibei77.com 米贝节点分享)_1
-  - US美国(mibei77.com 米贝节点分享)_25
-  - 🇻🇳VN越南丨yoyapai.com
-  - 🇭🇰_HK_中国香港
+  - 🇨🇦CA加拿大丨yoyapai.com_3
+  - 🇸🇬SG新加坡丨yoyapai.com_6
+  - 🇩🇪DE德国丨yoyapai.com_13
   - 阿拉伯(mibei77.com 米贝节点分享)
+  - 🇺🇸US美国丨yoyapai.com_16
+  - RU俄罗斯(mibei77.com 米贝节点分享)
+  - 🇻🇳VN越南丨yoyapai.com
+  - US美国(mibei77.com 米贝节点分享)_33
+  - US美国mibei77.com 米贝节点分享)_4
+  - US美国(mibei77.com 米贝节点分享)_8
+  - 🇭🇰_HK_中国香港
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -248,17 +236,16 @@ proxy-groups:
   tolerance: 100
   lazy: false
   proxies:
-  - DE德国(mibei77.com 米贝节点分享)_3
-  - 🇸🇬SG新加坡丨yoyapai.com_7
-  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
-  - ❓未知丨yoyapai.com_30
-  - US美国(mibei77.com 米贝节点分享)_7
-  - 🇩🇪DE德国丨yoyapai.com_14
-  - 🇺🇸US美国丨yoyapai.com
-  - US美国(mibei77.com 米贝节点分享)_1
-  - US美国(mibei77.com 米贝节点分享)_25
-  - 🇻🇳VN越南丨yoyapai.com
-  - 🇭🇰_HK_中国香港
+  - 🇨🇦CA加拿大丨yoyapai.com_3
+  - 🇸🇬SG新加坡丨yoyapai.com_6
+  - 🇩🇪DE德国丨yoyapai.com_13
   - 阿拉伯(mibei77.com 米贝节点分享)
+  - 🇺🇸US美国丨yoyapai.com_16
+  - RU俄罗斯(mibei77.com 米贝节点分享)
+  - 🇻🇳VN越南丨yoyapai.com
+  - US美国(mibei77.com 米贝节点分享)_33
+  - US美国mibei77.com 米贝节点分享)_4
+  - US美国(mibei77.com 米贝节点分享)_8
+  - 🇭🇰_HK_中国香港
 rules:
 - MATCH,节点选择
