@@ -32,6 +32,35 @@ dns:
   - https://dns.alidns.com/dns-query
   - https://doh.pub/dns-query
 proxies:
+- name: 🇨🇦CA加拿大丨yoyapai.com
+  type: vless
+  server: 172.67.79.160
+  port: 2087
+  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
+  network: ws
+  servername: cvhpyn.pages.dev
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: cvhpyn.pages.dev
+  skip-cert-verify: false
+  udp: true
+- name: 🇩🇪DE德国丨yoyapai.com_9
+  type: vless
+  server: 169.40.42.229
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: ios
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  skip-cert-verify: false
+  udp: true
 - name: 🇺🇸US美国丨yoyapai.com_13
   type: vless
   server: tk1.high-speed-test-56424.me
@@ -60,40 +89,6 @@ proxies:
     short-id: b28db60d77c50b4f
   skip-cert-verify: false
   udp: true
-- name: 🇱🇻_LV_拉脱维亚
-  type: vless
-  server: 195.123.213.28
-  port: 443
-  uuid: 02fcc1a4-ee90-4970-8bbb-4ffaa8109d24
-  servername: www.cloudflare.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo
-    short-id: 5c256336e3b673fa
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰_HK_中国香港->🇬🇧_GB_英国
-  type: vmess
-  server: v36.hdacd.com
-  port: 30836
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰_HK_中国香港->🇺🇸_US_美国
-  type: vmess
-  server: v4.hdacd.com
-  port: 30804
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -101,11 +96,10 @@ proxy-groups:
   - 故障转移
   - 自动选择
   - DIRECT
+  - 🇨🇦CA加拿大丨yoyapai.com
+  - 🇩🇪DE德国丨yoyapai.com_9
   - 🇺🇸US美国丨yoyapai.com_13
   - 🇱🇻LV拉脱维亚丨yoyapai.com
-  - 🇱🇻_LV_拉脱维亚
-  - 🇭🇰_HK_中国香港->🇬🇧_GB_英国
-  - 🇭🇰_HK_中国香港->🇺🇸_US_美国
 - name: 故障转移
   type: fallback
   url: http://www.gstatic.com/generate_204
@@ -113,11 +107,10 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
+  - 🇨🇦CA加拿大丨yoyapai.com
+  - 🇩🇪DE德国丨yoyapai.com_9
   - 🇺🇸US美国丨yoyapai.com_13
   - 🇱🇻LV拉脱维亚丨yoyapai.com
-  - 🇱🇻_LV_拉脱维亚
-  - 🇭🇰_HK_中国香港->🇬🇧_GB_英国
-  - 🇭🇰_HK_中国香港->🇺🇸_US_美国
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -125,10 +118,9 @@ proxy-groups:
   tolerance: 100
   lazy: false
   proxies:
+  - 🇨🇦CA加拿大丨yoyapai.com
+  - 🇩🇪DE德国丨yoyapai.com_9
   - 🇺🇸US美国丨yoyapai.com_13
   - 🇱🇻LV拉脱维亚丨yoyapai.com
-  - 🇱🇻_LV_拉脱维亚
-  - 🇭🇰_HK_中国香港->🇬🇧_GB_英国
-  - 🇭🇰_HK_中国香港->🇺🇸_US_美国
 rules:
 - MATCH,节点选择
