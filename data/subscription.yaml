@@ -32,379 +32,407 @@ dns:
   - https://dns.alidns.com/dns-query
   - https://doh.pub/dns-query
 proxies:
-- name: US美国(mibei77.com 米贝节点分享)_39
-  type: vless
-  server: 104.21.91.244
+- name: 🇫🇷FR_65|5.2MB/s|R002-260618 01
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  network: ws
-  servername: lucasjow.us.ci
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---MTMVPN---MTMVPN---MTMVPN---MTMVPN
-    headers:
-      Host: lucasjow.us.ci
-  alpn:
-  - http/1.1
+  server: 172.64.69.89
   skip-cert-verify: true
-  udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_20
-  type: vless
-  server: 172.67.79.160
-  port: 2087
-  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
-  network: ws
-  servername: cvhpyn.pages.dev
   tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: cvhpyn.pages.dev
-  skip-cert-verify: false
+  type: http
   udp: true
-- name: ❓未知丨yoyapai.com
-  type: vless
-  server: 172.64.152.241
+- cipher: rc4-md5
+  name: 🇺🇸US_294|1.4MB/s 01
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 138.199.42.68
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸US_249|1.1MB/s 01
+  password: shadowsocks
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  network: ws
-  servername: ccc.010304.xyz
+  server: 156.146.38.169
+  type: ss
+  udp: true
+- name: 🇺🇸US_329|973KB/s|R002-260618 01
+  port: 443
+  server: 23.133.176.14
+  skip-cert-verify: true
   tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_265|467KB/s|R002-260618 01
+  port: 443
+  server: 12.202.180.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸US_300|2.0MB/s 01
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.243
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸US_139|1.8MB/s|A004-260618 01
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.236
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 🇨🇦CA_1|1.3MB/s|A004-260618 01
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 137.184.174.93
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇫🇷FR_268|4.9MB/s|S004-260618 01
+  network: ws
+  port: 443
+  server: 104.17.148.22
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
-    path: /fp
+    headers:
+      Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: snip.edgeoneai.cc.cd
+- cipher: aes-128-gcm
+  name: 🇺🇸US_52|1.3MB/s|A004-260618 01
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.167
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸US_3|1.8MB/s|A004-260618 01
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.244
+  type: ss
+  udp: true
+- name: 🇺🇸US_420|905KB/s|R002-260618 01
+  port: 443
+  server: 193.239.236.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_470|698KB/s|R002-260618 01
+  port: 9443
+  server: 154.47.25.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_323|1.7MB/s|A004-260618 01
+  network: tcp
+  port: 45299
+  server: 104.243.33.154
+  type: vless
+  udp: true
+  uuid: 261f011c-e97a-4d72-b596-e6329b50b47b
+  xudp: true
+  packet-encoding: xudp
+- client-fingerprint: chrome
+  name: 🇫🇷FR_88|1.2MB/s|A001-260618 01
+  network: ws
+  port: 443
+  server: cf.090227.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
     headers:
       Host: ccc.010304.xyz
-  skip-cert-verify: false
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_54
-  type: vless
-  server: 188.114.98.0
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /fp=chrome
+  xudp: true
+  packet-encoding: xudp
+  servername: ccc.010304.xyz
+- cipher: aes-128-gcm
+  name: 🇺🇸US_2|1.1MB/s 01
+  password: shadowsocks
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  network: ws
-  servername: lucasjow.us.ci
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI
-    headers:
-      Host: lucasjow.us.ci
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
+  server: 156.146.38.168
+  type: ss
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_21
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_133|1.1MB/s|S004-260618 01
+  network: ws
+  port: 443
+  server: 172.64.152.241
+  tls: true
   type: vless
-  server: www.iplocation.net
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /fp=chrome
+  xudp: true
+  packet-encoding: xudp
+  servername: ccc.010304.xyz
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  encryption: none
+  name: 🇫🇷FR_66|647KB/s|R002-260618 01
+  network: ws
+  packet-encoding: xudp
+  port: 2087
+  server: 104.18.1.1
+  tls: true
+  type: vless
+  uuid: 4859c235-2530-4062-9a0b-ea859cbbf861
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 1.proxy2.us.ci.
+    max-early-data: 2560
+    path: /
+  udp: true
+  servername: 1.proxy2.us.ci.
+- encryption: none
+  name: 🇫🇷FR_15|622KB/s|C002-260622 01
+  network: ws
+  port: 8880
+  server: 108.165.152.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime61.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+- encryption: none
+  name: 🇫🇷FR_208|1.2MB/s|M003-260806 01
+  network: ws
   port: 8080
-  uuid: 5c4ce4e3-d4cd-43ff-8eb0-9aa553410bff
-  network: ws
-  tls: false
+  server: icook.tw
+  type: vless
+  udp: true
+  uuid: f8f5d3a5-54bd-4f52-9759-137bdbf950db
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 23g-lively-resonance-96b9hsf.msc633k2.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+    max-early-data: 2048
     path: /
-    headers:
-      Host: n23odi-jolly-sound-f784.mbkl61es.workers.dev
-  skip-cert-verify: false
-  udp: true
-- name: 🇺🇸US美国丨yoyapai.com_14
-  type: vless
-  server: tk1.high-speed-test-56424.me
-  port: 443
-  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
-  servername: aws.amazon.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
-    short-id: 21270a66
-  skip-cert-verify: false
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_51
-  type: vless
-  server: 176.122.183.26
-  port: 42346
-  uuid: d5bc1380-2afd-4c7e-bacd-54e7833b0140
-  servername: www.amazon.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: fk0_CYMC_RKIbBDwS-lagle8Jm-hnvkSlV_7P0nBagM
-    short-id: 3f8ced2bf06b8448
-  skip-cert-verify: true
-  udp: true
-- name: 芬兰(mibei77.com 米贝节点分享)
-  type: vless
-  server: 152.233.71.81
-  port: 443
-  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
-  servername: brointelengence.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: random
-  reality-opts:
-    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
-    short-id: 1c3e8241a8743df9
-  skip-cert-verify: true
-  udp: true
-- name: RU俄罗斯(mibei77.com 米贝节点分享)_1
-  type: vless
-  server: 185.153.198.86
-  port: 443
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  xudp: true
+  packet-encoding: xudp
+- encryption: none
+  name: 🇫🇷FR_209|420KB/s|M003-260806 01
   network: ws
-  servername: vlso5.1d.mom
-  tls: true
-  client-fingerprint: chrome
+  port: 8080
+  server: 172.67.75.172
+  type: vless
+  udp: true
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
   ws-opts:
-    path: /socks5=888:888@hkip.1d.mom:1080
     headers:
-      Host: vlso5.1d.mom
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_25
-  type: vless
-  server: 213.111.177.107
-  port: 443
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  network: ws
-  servername: vlso5.1d.mom
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /socks5=888:888@hkip.1d.mom:1080
-    headers:
-      Host: vlso5.1d.mom
-  skip-cert-verify: true
-  udp: true
-- name: 🇱🇻LV拉脱维亚丨yoyapai.com
-  type: vless
-  server: 193.163.203.170
-  port: 443
-  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
-  servername: yandex.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
-    short-id: b28db60d77c50b4f
-  skip-cert-verify: false
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_26
-  type: vless
-  server: 139.84.242.103
-  port: 443
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  network: ws
-  servername: vlso5.1d.mom
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /socks5=888:888@hkip.1d.mom:1080
-    headers:
-      Host: vlso5.1d.mom
-  skip-cert-verify: true
-  udp: true
-- name: 阿拉伯(mibei77.com 米贝节点分享)
-  type: vless
-  server: 45.59.120.217
-  port: 443
-  uuid: 8732f92b-ba85-48f7-92e4-ad029f1cd4e7
-  servername: strm.yandex.net
-  tls: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: mWxcYeYE-M3iE0RBjTzG88QI9kj2wivJDoIYDu_aG3w
-    short-id: 29c2dd1e3ef7c4d4
-  skip-cert-verify: true
-  udp: true
-- name: GB英国(mibei77.com 米贝节点分享)_2
-  type: vless
-  server: 138.124.125.193
-  port: 10444
-  uuid: e57ce64d-5a1a-4a90-96df-9e1bd3ad26e4
-  servername: ads.x5.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: safari
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)
-  type: anytls
-  server: 56481.df6h451rh.xin
-  port: 443
-  password: ec74bb6a86c2
-  sni: images.ctfassets.net
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  client-fingerprint: chrome
-- name: ❓未知丨yoyapai.com_51
-  type: vless
-  server: hinet1.2yly.com
-  port: 24215
-  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
-  servername: addons.mozilla.org
-  tls: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
-  skip-cert-verify: false
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)_2
-  type: anytls
-  server: 56481.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  sni: images.ctfassets.net
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  client-fingerprint: chrome
-- name: 🇯🇵JP日本丨yoyapai.com
-  type: vless
-  server: 104.21.81.50
-  port: 443
-  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
-  network: ws
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /Tokyo1
-    headers:
-      Host: jp.lovehk.xyz
-  skip-cert-verify: false
-  udp: true
-- name: SG新加坡(mibei77.com 米贝节点分享)_3
-  type: vless
-  server: 147.93.173.45
-  port: 10444
-  uuid: 75c5f51b-d548-4eab-a26e-aa10fc3dbc7b
-  servername: video.yandex.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: safari
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-  skip-cert-verify: true
-  udp: true
-- name: JP日本(mibei77.com 米贝节点分享)
-  type: vless
-  server: funagfrdfs.alixxplay.com
-  port: 46105
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  servername: www.lamer.com.sg
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: safari
-  reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: 28f5c1f8f98a
-  skip-cert-verify: true
-  udp: true
-- name: JP日本(mibei77.com 米贝节点分享)_4
-  type: vless
-  server: funagfrdfs.alixxplay.com
-  port: 56656
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  servername: cdn-dynmedia-1.microsoft.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: ios
-  reality-opts:
-    public-key: QFM3jTzb5n-E9L2cfFo6GHqioGmIkjmG60l8wXA4IXc
-    short-id: aae6d935
-  skip-cert-verify: true
-  udp: true
-- name: 🇱🇰LK斯里兰卡丨yoyapai.com
-  type: vless
-  server: support.zoom.us
-  port: 80
-  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
-  network: ws
-  tls: false
-  ws-opts:
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /
+  xudp: true
+  packet-encoding: xudp
+- name: 🇫🇷FR_12|1.3MB/s|A004-260618 01
+  network: ws
+  port: 8080
+  server: 104.21.70.21
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
     headers:
-      Host: free.sahanwickramasinghe.me
-  skip-cert-verify: false
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_43
-  type: vless
-  server: funagfrdfs.alixxplay.com
-  port: 34379
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  servername: us1p1.xn--ghq880n3na965a.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
-    short-id: e51285e3
-  skip-cert-verify: true
-  udp: true
-- name: TW台湾(mibei77.com 米贝节点分享)
-  type: anytls
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  password: ec74bb6a86c2
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  client-fingerprint: chrome
-- name: TW台湾(mibei77.com 米贝节点分享)_4
-  type: anytls
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  sni: px.ads.linkedin.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  client-fingerprint: chrome
-- name: JP日本(mibei77.com 米贝节点分享)_5
-  type: vless
-  server: funagfrdfs.alixxplay.com
-  port: 47672
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  servername: us1p1.xn--ghq880n3na965a.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: ios
-  reality-opts:
-    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
-    short-id: 70ab6d813e
-  skip-cert-verify: true
-  udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_2
-  type: vmess
-  server: hk2.998998.best
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  alterId: 0
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /fp
+  xudp: true
+  packet-encoding: xudp
+- alpn:
+  - 'null'
+  alterId: '0'
   cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: server15.9966338.xyz
+  name: 🇺🇸US_445|1.7MB/s|S004-260618 01
   network: ws
-  ws-opts:
-    path: /asivewritten
-    headers:
-      Host: server15.9966338.xyz
+  port: 443
+  server: 172.64.229.21
+  skip-cert-verify: false
+  tls: true
+  type: vmess
   udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    path: /ws
+  xudp: true
+  packet-encoding: xudp
+  servername: vmess.lbw666.dpdns.org
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_471|591KB/s|S004-260618 01
+  network: ws
+  port: 80
+  server: 172.67.187.145
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    path: /ws
+  xudp: true
+  packet-encoding: xudp
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_448|241KB/s|S004-260618 01
+  network: ws
+  port: 80
+  server: 104.17.147.222
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    path: /ws
+  xudp: true
+  packet-encoding: xudp
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_468|1.4MB/s|M003-260806 01
+  network: ws
+  port: 443
+  server: 104.17.136.198
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    path: /ws
+  xudp: true
+  packet-encoding: xudp
+  servername: vmess.lbw666.dpdns.org
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_441|1.4MB/s|S004-260618 01
+  network: ws
+  port: 80
+  server: cf.0sm.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    path: /ws
+  xudp: true
+  packet-encoding: xudp
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_444|603KB/s|S004-260618 01
+  network: ws
+  port: 443
+  server: cf.090227.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    path: /ws
+  xudp: true
+  packet-encoding: xudp
+  servername: vmess.lbw666.dpdns.org
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_469|558KB/s|M003-260806 01
+  network: ws
+  port: 80
+  server: 104.21.7.133
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    path: /ws
+  xudp: true
+  packet-encoding: xudp
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_437|567KB/s|S004-260618 01
+  network: ws
+  port: 443
+  server: 172.66.203.67
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    max-early-data: 2048
+    path: /ws
+  xudp: true
+  packet-encoding: xudp
+  servername: vmess.lbw666.dpdns.org
 proxy-groups:
 - name: 节点选择
   type: select
@@ -412,33 +440,36 @@ proxy-groups:
   - 故障转移
   - 自动选择
   - DIRECT
-  - US美国(mibei77.com 米贝节点分享)_39
-  - 🇨🇦CA加拿大丨yoyapai.com_20
-  - ❓未知丨yoyapai.com
-  - US美国(mibei77.com 米贝节点分享)_54
-  - 🇨🇦CA加拿大丨yoyapai.com_21
-  - 🇺🇸US美国丨yoyapai.com_14
-  - US美国(mibei77.com 米贝节点分享)_51
-  - 芬兰(mibei77.com 米贝节点分享)
-  - RU俄罗斯(mibei77.com 米贝节点分享)_1
-  - US美国(mibei77.com 米贝节点分享)_25
-  - 🇱🇻LV拉脱维亚丨yoyapai.com
-  - US美国(mibei77.com 米贝节点分享)_26
-  - 阿拉伯(mibei77.com 米贝节点分享)
-  - GB英国(mibei77.com 米贝节点分享)_2
-  - HK香港(mibei77.com 米贝节点分享)
-  - ❓未知丨yoyapai.com_51
-  - HK香港(mibei77.com 米贝节点分享)_2
-  - 🇯🇵JP日本丨yoyapai.com
-  - SG新加坡(mibei77.com 米贝节点分享)_3
-  - JP日本(mibei77.com 米贝节点分享)
-  - JP日本(mibei77.com 米贝节点分享)_4
-  - 🇱🇰LK斯里兰卡丨yoyapai.com
-  - US美国(mibei77.com 米贝节点分享)_43
-  - TW台湾(mibei77.com 米贝节点分享)
-  - TW台湾(mibei77.com 米贝节点分享)_4
-  - JP日本(mibei77.com 米贝节点分享)_5
-  - 🇨🇦CA加拿大丨yoyapai.com_2
+  - 🇫🇷FR_65|5.2MB/s|R002-260618 01
+  - 🇺🇸US_294|1.4MB/s 01
+  - 🇺🇸US_249|1.1MB/s 01
+  - 🇺🇸US_329|973KB/s|R002-260618 01
+  - 🇺🇸US_265|467KB/s|R002-260618 01
+  - 🇺🇸US_300|2.0MB/s 01
+  - 🇺🇸US_139|1.8MB/s|A004-260618 01
+  - 🇨🇦CA_1|1.3MB/s|A004-260618 01
+  - 🇫🇷FR_268|4.9MB/s|S004-260618 01
+  - 🇺🇸US_52|1.3MB/s|A004-260618 01
+  - 🇺🇸US_3|1.8MB/s|A004-260618 01
+  - 🇺🇸US_420|905KB/s|R002-260618 01
+  - 🇺🇸US_470|698KB/s|R002-260618 01
+  - 🇺🇸US_323|1.7MB/s|A004-260618 01
+  - 🇫🇷FR_88|1.2MB/s|A001-260618 01
+  - 🇺🇸US_2|1.1MB/s 01
+  - 🇫🇷FR_133|1.1MB/s|S004-260618 01
+  - 🇫🇷FR_66|647KB/s|R002-260618 01
+  - 🇫🇷FR_15|622KB/s|C002-260622 01
+  - 🇫🇷FR_208|1.2MB/s|M003-260806 01
+  - 🇫🇷FR_209|420KB/s|M003-260806 01
+  - 🇫🇷FR_12|1.3MB/s|A004-260618 01
+  - 🇺🇸US_445|1.7MB/s|S004-260618 01
+  - 🇺🇸US_471|591KB/s|S004-260618 01
+  - 🇺🇸US_448|241KB/s|S004-260618 01
+  - 🇺🇸US_468|1.4MB/s|M003-260806 01
+  - 🇺🇸US_441|1.4MB/s|S004-260618 01
+  - 🇺🇸US_444|603KB/s|S004-260618 01
+  - 🇺🇸US_469|558KB/s|M003-260806 01
+  - 🇺🇸US_437|567KB/s|S004-260618 01
 - name: 故障转移
   type: fallback
   url: http://www.gstatic.com/generate_204
@@ -446,33 +477,36 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - US美国(mibei77.com 米贝节点分享)_39
-  - 🇨🇦CA加拿大丨yoyapai.com_20
-  - ❓未知丨yoyapai.com
-  - US美国(mibei77.com 米贝节点分享)_54
-  - 🇨🇦CA加拿大丨yoyapai.com_21
-  - 🇺🇸US美国丨yoyapai.com_14
-  - US美国(mibei77.com 米贝节点分享)_51
-  - 芬兰(mibei77.com 米贝节点分享)
-  - RU俄罗斯(mibei77.com 米贝节点分享)_1
-  - US美国(mibei77.com 米贝节点分享)_25
-  - 🇱🇻LV拉脱维亚丨yoyapai.com
-  - US美国(mibei77.com 米贝节点分享)_26
-  - 阿拉伯(mibei77.com 米贝节点分享)
-  - GB英国(mibei77.com 米贝节点分享)_2
-  - HK香港(mibei77.com 米贝节点分享)
-  - ❓未知丨yoyapai.com_51
-  - HK香港(mibei77.com 米贝节点分享)_2
-  - 🇯🇵JP日本丨yoyapai.com
-  - SG新加坡(mibei77.com 米贝节点分享)_3
-  - JP日本(mibei77.com 米贝节点分享)
-  - JP日本(mibei77.com 米贝节点分享)_4
-  - 🇱🇰LK斯里兰卡丨yoyapai.com
-  - US美国(mibei77.com 米贝节点分享)_43
-  - TW台湾(mibei77.com 米贝节点分享)
-  - TW台湾(mibei77.com 米贝节点分享)_4
-  - JP日本(mibei77.com 米贝节点分享)_5
-  - 🇨🇦CA加拿大丨yoyapai.com_2
+  - 🇫🇷FR_65|5.2MB/s|R002-260618 01
+  - 🇺🇸US_294|1.4MB/s 01
+  - 🇺🇸US_249|1.1MB/s 01
+  - 🇺🇸US_329|973KB/s|R002-260618 01
+  - 🇺🇸US_265|467KB/s|R002-260618 01
+  - 🇺🇸US_300|2.0MB/s 01
+  - 🇺🇸US_139|1.8MB/s|A004-260618 01
+  - 🇨🇦CA_1|1.3MB/s|A004-260618 01
+  - 🇫🇷FR_268|4.9MB/s|S004-260618 01
+  - 🇺🇸US_52|1.3MB/s|A004-260618 01
+  - 🇺🇸US_3|1.8MB/s|A004-260618 01
+  - 🇺🇸US_420|905KB/s|R002-260618 01
+  - 🇺🇸US_470|698KB/s|R002-260618 01
+  - 🇺🇸US_323|1.7MB/s|A004-260618 01
+  - 🇫🇷FR_88|1.2MB/s|A001-260618 01
+  - 🇺🇸US_2|1.1MB/s 01
+  - 🇫🇷FR_133|1.1MB/s|S004-260618 01
+  - 🇫🇷FR_66|647KB/s|R002-260618 01
+  - 🇫🇷FR_15|622KB/s|C002-260622 01
+  - 🇫🇷FR_208|1.2MB/s|M003-260806 01
+  - 🇫🇷FR_209|420KB/s|M003-260806 01
+  - 🇫🇷FR_12|1.3MB/s|A004-260618 01
+  - 🇺🇸US_445|1.7MB/s|S004-260618 01
+  - 🇺🇸US_471|591KB/s|S004-260618 01
+  - 🇺🇸US_448|241KB/s|S004-260618 01
+  - 🇺🇸US_468|1.4MB/s|M003-260806 01
+  - 🇺🇸US_441|1.4MB/s|S004-260618 01
+  - 🇺🇸US_444|603KB/s|S004-260618 01
+  - 🇺🇸US_469|558KB/s|M003-260806 01
+  - 🇺🇸US_437|567KB/s|S004-260618 01
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -480,32 +514,35 @@ proxy-groups:
   tolerance: 100
   lazy: false
   proxies:
-  - US美国(mibei77.com 米贝节点分享)_39
-  - 🇨🇦CA加拿大丨yoyapai.com_20
-  - ❓未知丨yoyapai.com
-  - US美国(mibei77.com 米贝节点分享)_54
-  - 🇨🇦CA加拿大丨yoyapai.com_21
-  - 🇺🇸US美国丨yoyapai.com_14
-  - US美国(mibei77.com 米贝节点分享)_51
-  - 芬兰(mibei77.com 米贝节点分享)
-  - RU俄罗斯(mibei77.com 米贝节点分享)_1
-  - US美国(mibei77.com 米贝节点分享)_25
-  - 🇱🇻LV拉脱维亚丨yoyapai.com
-  - US美国(mibei77.com 米贝节点分享)_26
-  - 阿拉伯(mibei77.com 米贝节点分享)
-  - GB英国(mibei77.com 米贝节点分享)_2
-  - HK香港(mibei77.com 米贝节点分享)
-  - ❓未知丨yoyapai.com_51
-  - HK香港(mibei77.com 米贝节点分享)_2
-  - 🇯🇵JP日本丨yoyapai.com
-  - SG新加坡(mibei77.com 米贝节点分享)_3
-  - JP日本(mibei77.com 米贝节点分享)
-  - JP日本(mibei77.com 米贝节点分享)_4
-  - 🇱🇰LK斯里兰卡丨yoyapai.com
-  - US美国(mibei77.com 米贝节点分享)_43
-  - TW台湾(mibei77.com 米贝节点分享)
-  - TW台湾(mibei77.com 米贝节点分享)_4
-  - JP日本(mibei77.com 米贝节点分享)_5
-  - 🇨🇦CA加拿大丨yoyapai.com_2
+  - 🇫🇷FR_65|5.2MB/s|R002-260618 01
+  - 🇺🇸US_294|1.4MB/s 01
+  - 🇺🇸US_249|1.1MB/s 01
+  - 🇺🇸US_329|973KB/s|R002-260618 01
+  - 🇺🇸US_265|467KB/s|R002-260618 01
+  - 🇺🇸US_300|2.0MB/s 01
+  - 🇺🇸US_139|1.8MB/s|A004-260618 01
+  - 🇨🇦CA_1|1.3MB/s|A004-260618 01
+  - 🇫🇷FR_268|4.9MB/s|S004-260618 01
+  - 🇺🇸US_52|1.3MB/s|A004-260618 01
+  - 🇺🇸US_3|1.8MB/s|A004-260618 01
+  - 🇺🇸US_420|905KB/s|R002-260618 01
+  - 🇺🇸US_470|698KB/s|R002-260618 01
+  - 🇺🇸US_323|1.7MB/s|A004-260618 01
+  - 🇫🇷FR_88|1.2MB/s|A001-260618 01
+  - 🇺🇸US_2|1.1MB/s 01
+  - 🇫🇷FR_133|1.1MB/s|S004-260618 01
+  - 🇫🇷FR_66|647KB/s|R002-260618 01
+  - 🇫🇷FR_15|622KB/s|C002-260622 01
+  - 🇫🇷FR_208|1.2MB/s|M003-260806 01
+  - 🇫🇷FR_209|420KB/s|M003-260806 01
+  - 🇫🇷FR_12|1.3MB/s|A004-260618 01
+  - 🇺🇸US_445|1.7MB/s|S004-260618 01
+  - 🇺🇸US_471|591KB/s|S004-260618 01
+  - 🇺🇸US_448|241KB/s|S004-260618 01
+  - 🇺🇸US_468|1.4MB/s|M003-260806 01
+  - 🇺🇸US_441|1.4MB/s|S004-260618 01
+  - 🇺🇸US_444|603KB/s|S004-260618 01
+  - 🇺🇸US_469|558KB/s|M003-260806 01
+  - 🇺🇸US_437|567KB/s|S004-260618 01
 rules:
 - MATCH,节点选择
