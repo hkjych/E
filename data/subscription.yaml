@@ -32,12 +32,109 @@ dns:
   - https://dns.alidns.com/dns-query
   - https://doh.pub/dns-query
 proxies:
-- name: 🇫🇷FR_185|1.0MB/s|S004-260618 [e18d86f96365]
+- name: 🇫🇷FR_316|535KB/s|M003-260806 [bd6be481bc37]
+  client-fingerprint: chrome
+  network: ws
+  port: 443
+  server: 172.64.157.229
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: ccc.010304.xyz
+- name: 🇫🇷FR_355|872KB/s|M003-260806 [60d65ea1768c]
+  client-fingerprint: chrome
+  network: ws
+  port: 443
+  server: 172.67.126.12
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
+  xudp: true
+  packet-encoding: xudp
+  servername: ccc.010304.xyz
+- name: 🇫🇷FR_248|1.4MB/s|M003-260806 [b19eb3a494f8]
+  client-fingerprint: chrome
+  network: ws
+  port: 443
+  server: 172.67.138.17
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: ccc.010304.xyz
+- name: 🇫🇷FR_310|771KB/s|M003-260806 [96b4d62dd069]
+  client-fingerprint: chrome
+  network: ws
+  port: 443
+  server: 104.18.32.47
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: ccc.010304.xyz
+- name: 🇺🇸US_352|1.6MB/s|A004-260618 [1feecb3b9b0d]
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 98.98.79.198
+  type: ss
+  udp: true
+- name: 🇺🇸US_46|2.1MB/s|A004-260618 [263395b13258]
+  cipher: aes-128-gcm
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.244
+  type: ss
+  udp: true
+- name: 🇫🇷FR_265|1.3MB/s|M003-260806 [5ea59f9490c3]
+  network: ws
+  port: 8080
+  server: 188.114.98.0
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /sg-melbi
+  xudp: true
+  packet-encoding: xudp
+  servername: hhlfy.twiladaphne.ndjp.net
+- name: 🇫🇷FR_330|666KB/s|B007-260618 [48722b1a429a]
   client-fingerprint: chrome
   encryption: none
   network: ws
   port: 443
-  server: chatgpt.com
+  server: 104.19.235.15
   tls: true
   type: vless
   udp: true
@@ -45,199 +142,66 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36
-    path: /
-  xudp: true
-  packet-encoding: xudp
-  servername: ccc.010304.xyz
-- name: 🇫🇷FR_233|1.0MB/s|K001-260618 [d5f950d9005a]
-  client-fingerprint: chrome
-  network: ws
-  port: 443
-  server: 172.64.146.66
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-  packet-encoding: xudp
-  servername: ccc.010304.xyz
-- name: 🇫🇷FR_53|754KB/s|K001-260618 [2fbcfa066360]
-  client-fingerprint: chrome
-  network: ws
-  port: 443
-  server: 104.26.4.2
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /fp=chrome
-  xudp: true
-  packet-encoding: xudp
-  servername: ccc.010304.xyz
-- name: 🇫🇷FR_70|1003KB/s|S004-260618 [03ab5a9e6f2d]
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  port: 443
-  server: 172.66.0.162
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /
-  xudp: true
-  packet-encoding: xudp
-  servername: ccc.010304.xyz
-- name: 🇫🇷FR_242|841KB/s|B007-260618 [6a91ed176aa3]
-  client-fingerprint: unsafe
-  encryption: none
-  network: ws
-  port: 443
-  server: 172.66.1.36
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /
-  xudp: true
-  packet-encoding: xudp
-  servername: ccc.010304.xyz
-- name: 🇫🇷FR_51|567KB/s|P002-260618 [832b63a63111]
-  client-fingerprint: chrome
-  network: ws
-  port: 443
-  server: 172.67.76.40
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /
-  servername: ccc.010304.xyz
-- name: 🇫🇷FR_250|1.3MB/s|B007-260618 [ea1fa154dbc9]
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  port: 443
-  server: 104.18.41.190
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    path: /
-  xudp: true
-  packet-encoding: xudp
-  servername: ccc.010304.xyz
-- name: 🇫🇷FR_251|1.1MB/s|B007-260618 [23561ce89fb3]
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  port: 443
-  server: 104.18.47.73
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
-    path: /
-  xudp: true
-  packet-encoding: xudp
-  servername: ccc.010304.xyz
-- name: 🇫🇷FR_50|1.4MB/s|A001-260618 [fd6819c1f250]
-  client-fingerprint: chrome
-  network: ws
-  port: 443
-  server: cf.090227.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /fp=chrome
-  xudp: true
-  packet-encoding: xudp
-  servername: ccc.010304.xyz
-- name: 🇺🇸US_430|646KB/s|P002-260618 [56c60dd2bbed]
-  password: ''
-  port: 443
-  server: 149.22.88.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- type: vless
-  name: ❓未知丨yoyapai.com (51)
-  server: 172.64.152.241
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  servername: ccc.010304.xyz
-  sni: ccc.010304.xyz
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
     path: /fp
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇫🇷FR_66|460KB/s|R002-260618 [5e89fefb461a]
-  alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: ios
-  encryption: none
-  network: ws
+  xudp: true
   packet-encoding: xudp
-  port: 2087
-  server: 104.18.1.1
+  servername: ccc.010304.xyz
+- name: 🇫🇷FR_77|963KB/s|A004-260618 [3842eaf34575]
+  network: ws
+  port: 2082
+  server: 172.64.150.43
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: hhlfy.twiladaphne.ndjp.net
+- name: 🇫🇷FR_313|807KB/s|M003-260806 [0ccb3dc74a1d]
+  client-fingerprint: chrome
+  network: ws
+  port: 443
+  server: 172.64.150.181
   tls: true
   type: vless
-  uuid: 4859c235-2530-4062-9a0b-ea859cbbf861
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 1.proxy2.us.ci.
-    max-early-data: 2560
-    path: /
   udp: true
-  servername: 1.proxy2.us.ci.
-- name: 🇺🇸US_107|1.1MB/s|B007-260618 [2713784692c5]
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: ccc.010304.xyz
+- name: 🇫🇷FR_353|1.3MB/s|M003-260806 [4664ad90aabc]
+  client-fingerprint: chrome
+  network: ws
+  port: 443
+  server: 104.18.49.85
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: ccc.010304.xyz
+- name: 🇺🇸US_211|983KB/s|C002-260622 [0a30e7482ca2]
   alterId: '0'
-  cipher: auto
+  cipher: aes-128-gcm
   network: tcp
   port: 18000
-  server: 84.17.41.2
+  server: 67.220.85.46
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -245,26 +209,47 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
   packet-encoding: xudp
-- name: 🇫🇷FR_85|415KB/s|A004-260618 [2a5963893dc1]
+- name: 🇫🇷FR_98|934KB/s|A004-260618 [17e99393b3f0]
   network: ws
   port: 2082
-  server: 104.17.162.11
+  server: 104.19.95.153
   type: vless
   udp: true
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   ws-opts:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /
   xudp: true
   packet-encoding: xudp
-- name: 🇫🇷FR_69|1.2MB/s|S004-260618 [327a7da66112]
+- name: 🇫🇷FR_263|440KB/s|M003-260806 [1fefb7b58153]
+  network: ws
+  port: 8080
+  server: 172.67.75.172
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /sg-melbi
+  xudp: true
+  packet-encoding: xudp
+  servername: hhlfy.twiladaphne.ndjp.net
+- name: 🇫🇷FR_24|6.3MB/s|R002-260618 [39873ef4d996]
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇫🇷FR_312|860KB/s|M003-260806 [d69326b56199]
   client-fingerprint: chrome
-  encryption: none
   network: ws
   port: 443
-  server: 172.64.158.170
+  server: 104.21.71.249
   tls: true
   type: vless
   udp: true
@@ -272,12 +257,27 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.104 Safari/537.36
-    path: /
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /fp=chromefp=chrome
   xudp: true
   packet-encoding: xudp
   servername: ccc.010304.xyz
-- name: 🇫🇷FR_256|772KB/s|A001-260618 [2afbc2863a96]
+- name: 🇫🇷FR_256|1.2MB/s|M003-260806 [ef26ddb2af2d]
+  network: ws
+  port: 8080
+  server: 104.26.12.31
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /sg-melbi
+  xudp: true
+  packet-encoding: xudp
+  servername: hhlfy.twiladaphne.ndjp.net
+- name: 🇫🇷FR_235|507KB/s|A001-260618 [2afbc2863a96]
   client-fingerprint: chrome
   network: ws
   port: 443
@@ -294,116 +294,41 @@ proxies:
   xudp: true
   packet-encoding: xudp
   servername: ccc.010304.xyz
-- name: 🇺🇸US_423|998KB/s|M003-260806 [7b6884c22acc]
-  client-fingerprint: chrome
-  network: tcp
-  password: 242a3d8eee5e4ed1a6bfa4141d549a25
-  port: 443
-  server: www.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
-- name: 🇫🇷FR_181|893KB/s|A001-260618 [19a68365cca1]
-  client-fingerprint: chrome
+- name: 🇫🇷FR_45|1.0MB/s|A004-260618 [112c999b4576]
   network: ws
-  port: 443
-  server: 104.18.40.100
-  tls: true
+  port: 2082
+  server: 104.18.0.181
   type: vless
   udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   ws-opts:
     headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
-    path: /fp=chrome
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /fp
   xudp: true
   packet-encoding: xudp
-  servername: ccc.010304.xyz
-- name: 🇫🇷FR_240|898KB/s|B007-260618 [66de7f192c55]
-  client-fingerprint: unsafe
-  encryption: none
+  servername: hhlfy.twiladaphne.ndjp.net
+- name: 🇫🇷FR_320|657KB/s|M003-260806 [b6aba7b29f8a]
   network: ws
-  port: 443
-  server: 104.18.45.38
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-  xudp: true
-  packet-encoding: xudp
-  servername: ccc.010304.xyz
-- name: 🇫🇷FR_253|1.3MB/s|T001-260618 [a76c3eaefaaf]
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  port: 443
-  server: 104.21.94.161
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /
-  xudp: true
-  packet-encoding: xudp
-  servername: ccc.010304.xyz
-- name: 🇺🇸US_216|962KB/s|A004-260618 [19fe6b7745cb]
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  server: 138.199.43.159
-  type: ss
-  udp: true
-- name: 🇺🇸US_445|919KB/s|A004-260618 [7292f50acabf]
-  client-fingerprint: chrome
-  network: tcp
-  password: f0eb8c92ce8946aaba856569cff1a16b
-  port: 443
-  server: 216.106.186.33
-  skip-cert-verify: false
-  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  type: trojan
-  udp: true
-- name: 🇨🇦CA_3|943KB/s|A004-260618 [3fb3343bd43b]
-  cipher: aes-128-gcm
-  password: shadowsocks
-  port: 443
-  server: 149.22.95.183
-  type: ss
-  udp: true
-- name: 🇫🇷FR_269|1.5MB/s|M003-260806 [d1d3a4137c59]
-  client-fingerprint: chrome
-  network: ws
-  port: 443
-  server: 104.20.17.210
-  tls: true
+  server: 104.26.13.31
   type: vless
   udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   ws-opts:
     headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36
-    path: /
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /sg-melbi
   xudp: true
   packet-encoding: xudp
-  servername: ccc.010304.xyz
-- name: 🇫🇷FR_232|537KB/s|M002-260618 [160b4e299b4f]
+  servername: hhlfy.twiladaphne.ndjp.net
+- name: 🇫🇷FR_49|633KB/s|K001-260618 [2fbcfa066360]
   client-fingerprint: chrome
-  encryption: none
   network: ws
   port: 443
-  server: 104.18.35.15
+  server: 104.26.4.2
   tls: true
   type: vless
   udp: true
@@ -411,24 +336,16 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /fp=chrome
   xudp: true
   packet-encoding: xudp
   servername: ccc.010304.xyz
-- name: 🇫🇷FR_40|6.4MB/s|R002-260618 [39873ef4d996]
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇫🇷FR_244|1.1MB/s|B007-260618 [aaed37b3b52d]
-  client-fingerprint: unsafe
-  encryption: none
+- name: 🇫🇷FR_303|735KB/s|P002-260618 [b56696c3f8b7]
+  client-fingerprint: chrome
   network: ws
   port: 443
-  server: 88.216.69.253
+  server: 104.18.41.86
   tls: true
   type: vless
   udp: true
@@ -436,65 +353,126 @@ proxies:
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /
+  servername: ccc.010304.xyz
+- name: 🇫🇷FR_12|460KB/s|A004-260618 [f3d97673f7a3]
+  network: ws
+  port: 8080
+  server: 104.21.70.21
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /fp
   xudp: true
   packet-encoding: xudp
-  servername: ccc.010304.xyz
-- name: 🇫🇷FR_178|1.1MB/s|B007-260618 [640429bb010c]
-  client-fingerprint: chrome
-  encryption: none
+- name: 🇫🇷FR_250|705KB/s|M003-260806 [a15c81377635]
   network: ws
-  port: 443
-  server: 172.64.152.241
-  tls: true
+  port: 2082
+  server: 104.16.231.20
   type: vless
   udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   ws-opts:
     headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: hhlfy.twiladaphne.ndjp.net
+- name: 🇫🇷FR_101|681KB/s|B007-260618 [230678643d29]
+  encryption: none
+  network: ws
+  port: 8080
+  server: 104.18.35.86
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /sg-melbi
+  xudp: true
+  packet-encoding: xudp
+  servername: 'hhlfy.twiladaphne.ndjp.net '
+- name: 🇫🇷FR_249|1.4MB/s|M003-260806 [c4330bbb958a]
+  network: ws
+  port: 8080
+  server: 104.16.0.1
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: hhlfy.twiladaphne.ndjp.net
+- name: 🇫🇷FR_267|1.4MB/s|M003-260806 [10b48f22c0c1]
+  network: ws
+  port: 2082
+  server: 8.6.112.4
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+- name: 🇫🇷FR_254|950KB/s|M003-260806 [db7f02482f34]
+  network: ws
+  port: 8080
+  server: 104.24.197.20
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /sg-melbi
+  xudp: true
+  packet-encoding: xudp
+  servername: hhlfy.twiladaphne.ndjp.net
+- name: 🇫🇷FR_102|1.1MB/s|K001-260618 [14d7fbeff82d]
+  network: ws
+  port: 2082
+  server: 104.18.35.86
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /fp
   xudp: true
   packet-encoding: xudp
-  servername: ccc.010304.xyz
-- name: 🇫🇷FR_259|898KB/s|B007-260618 [9af6fc2a42db]
-  client-fingerprint: chrome
-  encryption: none
+  servername: hhlfy.twiladaphne.ndjp.net
+- name: 🇫🇷FR_122|1.4MB/s|A004-260618 [df2caff37b41]
   network: ws
-  port: 443
-  server: 104.18.37.127
-  tls: true
+  port: 8080
+  server: 172.67.71.187
   type: vless
   udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   ws-opts:
     headers:
-      Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /sg-melbi
   xudp: true
   packet-encoding: xudp
-  servername: ccc.010304.xyz
-- name: 🇫🇷FR_77|606KB/s|P001-260618 [52adbca3aca7]
-  client-fingerprint: chrome
-  encryption: none
-  network: ws
-  port: 443
-  server: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36
-    path: /
-  xudp: true
-  packet-encoding: xudp
-  servername: ccc.010304.xyz
 proxy-groups:
 - name: 节点选择
   type: select
@@ -502,36 +480,36 @@ proxy-groups:
   - 故障转移
   - 自动选择
   - DIRECT
-  - 🇫🇷FR_185|1.0MB/s|S004-260618 [e18d86f96365]
-  - 🇫🇷FR_233|1.0MB/s|K001-260618 [d5f950d9005a]
-  - 🇫🇷FR_53|754KB/s|K001-260618 [2fbcfa066360]
-  - 🇫🇷FR_70|1003KB/s|S004-260618 [03ab5a9e6f2d]
-  - 🇫🇷FR_242|841KB/s|B007-260618 [6a91ed176aa3]
-  - 🇫🇷FR_51|567KB/s|P002-260618 [832b63a63111]
-  - 🇫🇷FR_250|1.3MB/s|B007-260618 [ea1fa154dbc9]
-  - 🇫🇷FR_251|1.1MB/s|B007-260618 [23561ce89fb3]
-  - 🇫🇷FR_50|1.4MB/s|A001-260618 [fd6819c1f250]
-  - 🇺🇸US_430|646KB/s|P002-260618 [56c60dd2bbed]
-  - ❓未知丨yoyapai.com (51)
-  - 🇫🇷FR_66|460KB/s|R002-260618 [5e89fefb461a]
-  - 🇺🇸US_107|1.1MB/s|B007-260618 [2713784692c5]
-  - 🇫🇷FR_85|415KB/s|A004-260618 [2a5963893dc1]
-  - 🇫🇷FR_69|1.2MB/s|S004-260618 [327a7da66112]
-  - 🇫🇷FR_256|772KB/s|A001-260618 [2afbc2863a96]
-  - 🇺🇸US_423|998KB/s|M003-260806 [7b6884c22acc]
-  - 🇫🇷FR_181|893KB/s|A001-260618 [19a68365cca1]
-  - 🇫🇷FR_240|898KB/s|B007-260618 [66de7f192c55]
-  - 🇫🇷FR_253|1.3MB/s|T001-260618 [a76c3eaefaaf]
-  - 🇺🇸US_216|962KB/s|A004-260618 [19fe6b7745cb]
-  - 🇺🇸US_445|919KB/s|A004-260618 [7292f50acabf]
-  - 🇨🇦CA_3|943KB/s|A004-260618 [3fb3343bd43b]
-  - 🇫🇷FR_269|1.5MB/s|M003-260806 [d1d3a4137c59]
-  - 🇫🇷FR_232|537KB/s|M002-260618 [160b4e299b4f]
-  - 🇫🇷FR_40|6.4MB/s|R002-260618 [39873ef4d996]
-  - 🇫🇷FR_244|1.1MB/s|B007-260618 [aaed37b3b52d]
-  - 🇫🇷FR_178|1.1MB/s|B007-260618 [640429bb010c]
-  - 🇫🇷FR_259|898KB/s|B007-260618 [9af6fc2a42db]
-  - 🇫🇷FR_77|606KB/s|P001-260618 [52adbca3aca7]
+  - 🇫🇷FR_316|535KB/s|M003-260806 [bd6be481bc37]
+  - 🇫🇷FR_355|872KB/s|M003-260806 [60d65ea1768c]
+  - 🇫🇷FR_248|1.4MB/s|M003-260806 [b19eb3a494f8]
+  - 🇫🇷FR_310|771KB/s|M003-260806 [96b4d62dd069]
+  - 🇺🇸US_352|1.6MB/s|A004-260618 [1feecb3b9b0d]
+  - 🇺🇸US_46|2.1MB/s|A004-260618 [263395b13258]
+  - 🇫🇷FR_265|1.3MB/s|M003-260806 [5ea59f9490c3]
+  - 🇫🇷FR_330|666KB/s|B007-260618 [48722b1a429a]
+  - 🇫🇷FR_77|963KB/s|A004-260618 [3842eaf34575]
+  - 🇫🇷FR_313|807KB/s|M003-260806 [0ccb3dc74a1d]
+  - 🇫🇷FR_353|1.3MB/s|M003-260806 [4664ad90aabc]
+  - 🇺🇸US_211|983KB/s|C002-260622 [0a30e7482ca2]
+  - 🇫🇷FR_98|934KB/s|A004-260618 [17e99393b3f0]
+  - 🇫🇷FR_263|440KB/s|M003-260806 [1fefb7b58153]
+  - 🇫🇷FR_24|6.3MB/s|R002-260618 [39873ef4d996]
+  - 🇫🇷FR_312|860KB/s|M003-260806 [d69326b56199]
+  - 🇫🇷FR_256|1.2MB/s|M003-260806 [ef26ddb2af2d]
+  - 🇫🇷FR_235|507KB/s|A001-260618 [2afbc2863a96]
+  - 🇫🇷FR_45|1.0MB/s|A004-260618 [112c999b4576]
+  - 🇫🇷FR_320|657KB/s|M003-260806 [b6aba7b29f8a]
+  - 🇫🇷FR_49|633KB/s|K001-260618 [2fbcfa066360]
+  - 🇫🇷FR_303|735KB/s|P002-260618 [b56696c3f8b7]
+  - 🇫🇷FR_12|460KB/s|A004-260618 [f3d97673f7a3]
+  - 🇫🇷FR_250|705KB/s|M003-260806 [a15c81377635]
+  - 🇫🇷FR_101|681KB/s|B007-260618 [230678643d29]
+  - 🇫🇷FR_249|1.4MB/s|M003-260806 [c4330bbb958a]
+  - 🇫🇷FR_267|1.4MB/s|M003-260806 [10b48f22c0c1]
+  - 🇫🇷FR_254|950KB/s|M003-260806 [db7f02482f34]
+  - 🇫🇷FR_102|1.1MB/s|K001-260618 [14d7fbeff82d]
+  - 🇫🇷FR_122|1.4MB/s|A004-260618 [df2caff37b41]
 - name: 故障转移
   type: fallback
   url: http://www.gstatic.com/generate_204
@@ -539,36 +517,36 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - 🇫🇷FR_185|1.0MB/s|S004-260618 [e18d86f96365]
-  - 🇫🇷FR_233|1.0MB/s|K001-260618 [d5f950d9005a]
-  - 🇫🇷FR_53|754KB/s|K001-260618 [2fbcfa066360]
-  - 🇫🇷FR_70|1003KB/s|S004-260618 [03ab5a9e6f2d]
-  - 🇫🇷FR_242|841KB/s|B007-260618 [6a91ed176aa3]
-  - 🇫🇷FR_51|567KB/s|P002-260618 [832b63a63111]
-  - 🇫🇷FR_250|1.3MB/s|B007-260618 [ea1fa154dbc9]
-  - 🇫🇷FR_251|1.1MB/s|B007-260618 [23561ce89fb3]
-  - 🇫🇷FR_50|1.4MB/s|A001-260618 [fd6819c1f250]
-  - 🇺🇸US_430|646KB/s|P002-260618 [56c60dd2bbed]
-  - ❓未知丨yoyapai.com (51)
-  - 🇫🇷FR_66|460KB/s|R002-260618 [5e89fefb461a]
-  - 🇺🇸US_107|1.1MB/s|B007-260618 [2713784692c5]
-  - 🇫🇷FR_85|415KB/s|A004-260618 [2a5963893dc1]
-  - 🇫🇷FR_69|1.2MB/s|S004-260618 [327a7da66112]
-  - 🇫🇷FR_256|772KB/s|A001-260618 [2afbc2863a96]
-  - 🇺🇸US_423|998KB/s|M003-260806 [7b6884c22acc]
-  - 🇫🇷FR_181|893KB/s|A001-260618 [19a68365cca1]
-  - 🇫🇷FR_240|898KB/s|B007-260618 [66de7f192c55]
-  - 🇫🇷FR_253|1.3MB/s|T001-260618 [a76c3eaefaaf]
-  - 🇺🇸US_216|962KB/s|A004-260618 [19fe6b7745cb]
-  - 🇺🇸US_445|919KB/s|A004-260618 [7292f50acabf]
-  - 🇨🇦CA_3|943KB/s|A004-260618 [3fb3343bd43b]
-  - 🇫🇷FR_269|1.5MB/s|M003-260806 [d1d3a4137c59]
-  - 🇫🇷FR_232|537KB/s|M002-260618 [160b4e299b4f]
-  - 🇫🇷FR_40|6.4MB/s|R002-260618 [39873ef4d996]
-  - 🇫🇷FR_244|1.1MB/s|B007-260618 [aaed37b3b52d]
-  - 🇫🇷FR_178|1.1MB/s|B007-260618 [640429bb010c]
-  - 🇫🇷FR_259|898KB/s|B007-260618 [9af6fc2a42db]
-  - 🇫🇷FR_77|606KB/s|P001-260618 [52adbca3aca7]
+  - 🇫🇷FR_316|535KB/s|M003-260806 [bd6be481bc37]
+  - 🇫🇷FR_355|872KB/s|M003-260806 [60d65ea1768c]
+  - 🇫🇷FR_248|1.4MB/s|M003-260806 [b19eb3a494f8]
+  - 🇫🇷FR_310|771KB/s|M003-260806 [96b4d62dd069]
+  - 🇺🇸US_352|1.6MB/s|A004-260618 [1feecb3b9b0d]
+  - 🇺🇸US_46|2.1MB/s|A004-260618 [263395b13258]
+  - 🇫🇷FR_265|1.3MB/s|M003-260806 [5ea59f9490c3]
+  - 🇫🇷FR_330|666KB/s|B007-260618 [48722b1a429a]
+  - 🇫🇷FR_77|963KB/s|A004-260618 [3842eaf34575]
+  - 🇫🇷FR_313|807KB/s|M003-260806 [0ccb3dc74a1d]
+  - 🇫🇷FR_353|1.3MB/s|M003-260806 [4664ad90aabc]
+  - 🇺🇸US_211|983KB/s|C002-260622 [0a30e7482ca2]
+  - 🇫🇷FR_98|934KB/s|A004-260618 [17e99393b3f0]
+  - 🇫🇷FR_263|440KB/s|M003-260806 [1fefb7b58153]
+  - 🇫🇷FR_24|6.3MB/s|R002-260618 [39873ef4d996]
+  - 🇫🇷FR_312|860KB/s|M003-260806 [d69326b56199]
+  - 🇫🇷FR_256|1.2MB/s|M003-260806 [ef26ddb2af2d]
+  - 🇫🇷FR_235|507KB/s|A001-260618 [2afbc2863a96]
+  - 🇫🇷FR_45|1.0MB/s|A004-260618 [112c999b4576]
+  - 🇫🇷FR_320|657KB/s|M003-260806 [b6aba7b29f8a]
+  - 🇫🇷FR_49|633KB/s|K001-260618 [2fbcfa066360]
+  - 🇫🇷FR_303|735KB/s|P002-260618 [b56696c3f8b7]
+  - 🇫🇷FR_12|460KB/s|A004-260618 [f3d97673f7a3]
+  - 🇫🇷FR_250|705KB/s|M003-260806 [a15c81377635]
+  - 🇫🇷FR_101|681KB/s|B007-260618 [230678643d29]
+  - 🇫🇷FR_249|1.4MB/s|M003-260806 [c4330bbb958a]
+  - 🇫🇷FR_267|1.4MB/s|M003-260806 [10b48f22c0c1]
+  - 🇫🇷FR_254|950KB/s|M003-260806 [db7f02482f34]
+  - 🇫🇷FR_102|1.1MB/s|K001-260618 [14d7fbeff82d]
+  - 🇫🇷FR_122|1.4MB/s|A004-260618 [df2caff37b41]
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -576,35 +554,35 @@ proxy-groups:
   tolerance: 100
   lazy: false
   proxies:
-  - 🇫🇷FR_185|1.0MB/s|S004-260618 [e18d86f96365]
-  - 🇫🇷FR_233|1.0MB/s|K001-260618 [d5f950d9005a]
-  - 🇫🇷FR_53|754KB/s|K001-260618 [2fbcfa066360]
-  - 🇫🇷FR_70|1003KB/s|S004-260618 [03ab5a9e6f2d]
-  - 🇫🇷FR_242|841KB/s|B007-260618 [6a91ed176aa3]
-  - 🇫🇷FR_51|567KB/s|P002-260618 [832b63a63111]
-  - 🇫🇷FR_250|1.3MB/s|B007-260618 [ea1fa154dbc9]
-  - 🇫🇷FR_251|1.1MB/s|B007-260618 [23561ce89fb3]
-  - 🇫🇷FR_50|1.4MB/s|A001-260618 [fd6819c1f250]
-  - 🇺🇸US_430|646KB/s|P002-260618 [56c60dd2bbed]
-  - ❓未知丨yoyapai.com (51)
-  - 🇫🇷FR_66|460KB/s|R002-260618 [5e89fefb461a]
-  - 🇺🇸US_107|1.1MB/s|B007-260618 [2713784692c5]
-  - 🇫🇷FR_85|415KB/s|A004-260618 [2a5963893dc1]
-  - 🇫🇷FR_69|1.2MB/s|S004-260618 [327a7da66112]
-  - 🇫🇷FR_256|772KB/s|A001-260618 [2afbc2863a96]
-  - 🇺🇸US_423|998KB/s|M003-260806 [7b6884c22acc]
-  - 🇫🇷FR_181|893KB/s|A001-260618 [19a68365cca1]
-  - 🇫🇷FR_240|898KB/s|B007-260618 [66de7f192c55]
-  - 🇫🇷FR_253|1.3MB/s|T001-260618 [a76c3eaefaaf]
-  - 🇺🇸US_216|962KB/s|A004-260618 [19fe6b7745cb]
-  - 🇺🇸US_445|919KB/s|A004-260618 [7292f50acabf]
-  - 🇨🇦CA_3|943KB/s|A004-260618 [3fb3343bd43b]
-  - 🇫🇷FR_269|1.5MB/s|M003-260806 [d1d3a4137c59]
-  - 🇫🇷FR_232|537KB/s|M002-260618 [160b4e299b4f]
-  - 🇫🇷FR_40|6.4MB/s|R002-260618 [39873ef4d996]
-  - 🇫🇷FR_244|1.1MB/s|B007-260618 [aaed37b3b52d]
-  - 🇫🇷FR_178|1.1MB/s|B007-260618 [640429bb010c]
-  - 🇫🇷FR_259|898KB/s|B007-260618 [9af6fc2a42db]
-  - 🇫🇷FR_77|606KB/s|P001-260618 [52adbca3aca7]
+  - 🇫🇷FR_316|535KB/s|M003-260806 [bd6be481bc37]
+  - 🇫🇷FR_355|872KB/s|M003-260806 [60d65ea1768c]
+  - 🇫🇷FR_248|1.4MB/s|M003-260806 [b19eb3a494f8]
+  - 🇫🇷FR_310|771KB/s|M003-260806 [96b4d62dd069]
+  - 🇺🇸US_352|1.6MB/s|A004-260618 [1feecb3b9b0d]
+  - 🇺🇸US_46|2.1MB/s|A004-260618 [263395b13258]
+  - 🇫🇷FR_265|1.3MB/s|M003-260806 [5ea59f9490c3]
+  - 🇫🇷FR_330|666KB/s|B007-260618 [48722b1a429a]
+  - 🇫🇷FR_77|963KB/s|A004-260618 [3842eaf34575]
+  - 🇫🇷FR_313|807KB/s|M003-260806 [0ccb3dc74a1d]
+  - 🇫🇷FR_353|1.3MB/s|M003-260806 [4664ad90aabc]
+  - 🇺🇸US_211|983KB/s|C002-260622 [0a30e7482ca2]
+  - 🇫🇷FR_98|934KB/s|A004-260618 [17e99393b3f0]
+  - 🇫🇷FR_263|440KB/s|M003-260806 [1fefb7b58153]
+  - 🇫🇷FR_24|6.3MB/s|R002-260618 [39873ef4d996]
+  - 🇫🇷FR_312|860KB/s|M003-260806 [d69326b56199]
+  - 🇫🇷FR_256|1.2MB/s|M003-260806 [ef26ddb2af2d]
+  - 🇫🇷FR_235|507KB/s|A001-260618 [2afbc2863a96]
+  - 🇫🇷FR_45|1.0MB/s|A004-260618 [112c999b4576]
+  - 🇫🇷FR_320|657KB/s|M003-260806 [b6aba7b29f8a]
+  - 🇫🇷FR_49|633KB/s|K001-260618 [2fbcfa066360]
+  - 🇫🇷FR_303|735KB/s|P002-260618 [b56696c3f8b7]
+  - 🇫🇷FR_12|460KB/s|A004-260618 [f3d97673f7a3]
+  - 🇫🇷FR_250|705KB/s|M003-260806 [a15c81377635]
+  - 🇫🇷FR_101|681KB/s|B007-260618 [230678643d29]
+  - 🇫🇷FR_249|1.4MB/s|M003-260806 [c4330bbb958a]
+  - 🇫🇷FR_267|1.4MB/s|M003-260806 [10b48f22c0c1]
+  - 🇫🇷FR_254|950KB/s|M003-260806 [db7f02482f34]
+  - 🇫🇷FR_102|1.1MB/s|K001-260618 [14d7fbeff82d]
+  - 🇫🇷FR_122|1.4MB/s|A004-260618 [df2caff37b41]
 rules:
 - MATCH,节点选择
